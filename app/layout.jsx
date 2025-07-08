@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "TabMaster",
   description:
-    "TabMaster, Developed by Ferdus Rhaman khan for NDF BD(National Debate Federation Bangladesh)",
+    "TabMaster, Develpoed by Ferdus Rhaman Khan. For NDF BD(National Debate Federation Bangladesh)",
 };
 
 export default function RootLayout({ children }) {
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <header>
           <nav>Navbar</nav>
         </header>
-        <main> {children} </main>
+        <main>{children}</main>
         <footer>
           <p>© 2023 Ferdus Rhaman Khan</p>
         </footer>
