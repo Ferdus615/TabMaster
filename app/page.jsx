@@ -16,7 +16,10 @@ export default function Home() {
           by National Debate Federation Bangladesh(NDF BD)
         </h3>
       </div>
-      <a href="/registration">Register</a>
+      <div className="flex justify-between w-35">
+        <a href="/registration">Register</a>
+        <a href="/login">Login</a>
+      </div>
     </div>
   );
 }
