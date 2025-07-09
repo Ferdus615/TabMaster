@@ -47,9 +47,9 @@ const Registration = () => {
             required
             className="p-2 w-80 border border-gray-300 bg-transparent text-black rounded-md"
           >
-            {/* <option value="" disabled selected>
-                Select Role
-              </option> */}
+            <option value="" disabled selected>
+              Select Role
+            </option>
             <option value="team">Team</option>
             <option value="adjudicator">Adjudicator</option>
             <option value="organizer">Organizer</option>

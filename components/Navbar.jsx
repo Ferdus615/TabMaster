@@ -1,43 +1,33 @@
-"use client";
-import React, { useState } from "react";
 import Image from "next/image";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    console.log("Menu toggled:", !isOpen);
-  };
-
   return (
-    <div className="flex flex-col h-screen w-50 bg-gray-900 text-white p-2">
-      <div className="flex justify-between">
-        <Image src="/logo.png" width="80" height="50" alt="logo" />
+    <nav className="flex justify-between items-center bg-green-600 p-4 text-white">
+      <div className="flex items-center text-white">
         <Image
-          src="/menu-burger-white.svg"
-          width="30"
-          height="30"
-          alt="burger menu"
-          className="cursor-pointer"
-          onClick={toggleMenu}
+          src="/logo-icon-w.png"
+          alt="TabMaster Logo"
+          width={60}
+          height={60}
+          className="top-4 left-4" // Adjust the position as needed
         />
+        <h1 className="text-xl font-regular ml-3 tracking-wide">TabMaster</h1>
       </div>
-      <nav className="flex flex-col gap-2 mt-5">
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Dashboard
+      <div className="flex items-center justify-between w-45">
+        <a
+          className="border-green-500 border-1 px-3 py-1 rounded-md hover:bg-green-500 hover:text-black"
+          href="/registration"
+        >
+          Register
         </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Settings
+        <a
+          className="border-green-500 border-1 px-3 py-1 rounded-md hover:bg-green-500 hover:text-black"
+          href="/login"
+        >
+          Login
         </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Profile
-        </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Logout
-        </a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
