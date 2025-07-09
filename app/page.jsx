@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <div className=" flex flex-col items-center justify-center mb-5">
+      <div className=" flex flex-col items-center justify-center mb-4">
         <Image
           src="/logo-icon-w.png"
           alt="TabMaster Logo"

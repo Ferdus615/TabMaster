@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 :root {
   --font-body: var(--font-inter);
   --font-heading: var(--font-space-grotesk);
+}
+
+/* globals.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body,

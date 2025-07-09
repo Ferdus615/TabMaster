@@ -1,5 +1,6 @@
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import DotGrid from "@/components/DotGrid";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -26,8 +27,21 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}
     >
-      <body>
-        <main>{children}</main>
+      <body className="relative min-h-screen overflow-hidden">
+        <div className="fixed inset-0 z-0">
+          <DotGrid
+            dotSize={3}
+            gap={30}
+            baseColor="#5227FF30"
+            activeColor="#5227FF"
+            proximity={120}
+            shockRadius={250}
+            shockStrength={5}
+            resistance={750}
+            returnDuration={1.5}
+          />
+        </div>
+        <main className="relative z-10">{children}</main>
       </body>
     </html>
   );
