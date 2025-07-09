@@ -31,10 +31,10 @@ export default function RootLayout({ children }) {
         <div className="fixed inset-0 z-0">
           <DotGrid
             dotSize={3}
-            gap={30}
+            gap={20}
             baseColor="#5227FF30"
-            activeColor="#5227FF"
-            proximity={120}
+            activeColor="#5227FF30"
+            proximity={75}
             shockRadius={250}
             shockStrength={5}
             resistance={750}
