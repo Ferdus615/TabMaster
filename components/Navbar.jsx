@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <aside className="flex flex-col h-screen w-50 bg-gray-900 text-white p-2">
+    <div className="flex flex-col h-screen w-50 bg-gray-900 text-white p-2">
       <div className="flex justify-between">
         <Image src="/logo.png" width="80" height="50" alt="logo" />
         <Image
@@ -37,7 +37,7 @@ const Navbar = () => {
           Logout
         </a>
       </nav>
-    </aside>
+    </div>
   );
 };
 
