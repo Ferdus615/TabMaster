@@ -8,8 +8,8 @@ const Navbar = () => {
           <Image
             src="/logo-icon-w.png"
             alt="TabMaster Logo"
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             className="top-4 left-4" // Adjust the position as needed
           />
         </a>
