@@ -2,11 +2,9 @@ import Image from "next/image";
 
 const Registration = () => {
   return (
-    <div className="flex justify-between items-center gap-20 bg-green-300/20 p-10 rounded-lg shadow-lg">
+    <div className="flex justify-between items-center gap-20 p-10 rounded-lg shadow-lg bg-indigo-600/20 my-10">
       <div className="flex flex-col items-center">
-        <h2 className="mb-5 text-2xl font-medium text-green-400">
-          Register Here
-        </h2>
+        <h2 className="mb-5 text-2xl font-medium text-white">Register Here</h2>
         <Image
           src="/logo-w.png"
           width="200"
@@ -56,7 +54,7 @@ const Registration = () => {
           </select>
           <button
             type="submit"
-            className="bg-green-400 text-black p-2 rounded-md hover:bg-green-600 transition-colors mt-3"
+            className="border-1 border-indigo-500 font-light p-2 rounded-md hover:bg-indigo-600 transition-colors mt-3"
           >
             Register
           </button>
