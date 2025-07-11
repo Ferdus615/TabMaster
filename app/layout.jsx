@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}
     >
-      <body className="relative min-h-screen overflow-hidden">
+      <body className="relative min-h-screen">
         <div className="fixed inset-0 z-0">
           <DotGrid
             dotSize={3}
