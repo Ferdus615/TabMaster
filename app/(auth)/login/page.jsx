@@ -4,11 +4,8 @@ import Navbar from "@/components/landing_page/Navbar";
 
 function Login() {
   return (
-    <div>
-      <Navbar />
-      <div className="flex justify-center items-center h-screen">
-        <Login_form className="" />
-      </div>
+    <div className="flex grow items-center justify-center p-6 md:p-8 lg:p-12">
+      <Login_form />
     </div>
   );
 }

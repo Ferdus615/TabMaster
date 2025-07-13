@@ -9,12 +9,6 @@ const inter = Inter({
   style: ["normal", "italic"],
 });
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-});
-
 export const metadata = {
   title: "TabMaster",
   description:
@@ -23,12 +17,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}
-    >
-      <body className="relative min-h-screen overflow-hidden">
-        <div className="fixed inset-0 z-0">
+    <html lang="en" className={`${inter.variable} antialiased`}>
+      <body className="relative min-h-screen">
+        {/* <div className="fixed inset-0 z-0">
           <DotGrid
             dotSize={3}
             gap={20}
@@ -40,8 +31,10 @@ export default function RootLayout({ children }) {
             resistance={750}
             returnDuration={1.5}
           />
-        </div>
-        <main className="relative z-10">{children}</main>
+        </div> */}
+        <main className="relative z-10 flex flex-col min-h-dvh p-2">
+          {children}
+        </main>
       </body>
     </html>
   );

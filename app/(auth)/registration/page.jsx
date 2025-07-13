@@ -5,11 +5,8 @@ import Image from "next/image";
 
 function Registration() {
   return (
-    <div>
-      <Navbar />
-      <div className="flex justify-center items-center h-screen">
-        <Registration_form />
-      </div>
+    <div className="flex grow items-center justify-center p-6 md:p-8 lg:p-12">
+      <Registration_form />
     </div>
   );
 }

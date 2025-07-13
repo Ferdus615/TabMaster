@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between w-full bg-indigo-600 px-5 py-5 sm:px-50 sm:py-5 items-center">
+    <nav className="fixed top-0 left-0 z-100 flex justify-between w-full bg-indigo-600 px-5 py-5 sm:px-50 sm:py-5 items-center">
       <div className="flex flex-col justify-center items-center md:flex-row">
         <a href="/">
           <Image
