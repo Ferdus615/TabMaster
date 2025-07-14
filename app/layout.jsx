@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
           <DotGrid
             dotSize={3}
             gap={20}
-            baseColor="#21212130"
+            baseColor="#0a0a0a"
             activeColor="#8e51ff"
             proximity={150}
             shockRadius={450}

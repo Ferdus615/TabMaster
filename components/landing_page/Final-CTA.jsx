@@ -3,8 +3,16 @@ import React from "react";
 function FinalCTA() {
   return (
     <div className="flex flex-col gap-20 items-center justify-center p-5 mb-20 sm:flex-row">
-      <div>
-        <video autoPlay loop muted width={800} className="rounded-lg">
+      <div className="w-180 h-70">
+        <video
+          autoPlay
+          loop
+          muted
+          preload="none"
+          width={800}
+          height={800}
+          className="rounded-lg w-full h-full object-cover"
+        >
           <source src="/community.mp4" />
           Your browser does not support the video tag.
         </video>
