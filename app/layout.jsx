@@ -19,19 +19,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} antialiased`}>
       <body className="relative min-h-screen">
-        {/* <div className="fixed inset-0 z-0">
+        <div className="fixed inset-0 z-0">
           <DotGrid
             dotSize={3}
             gap={20}
-            baseColor="#5227FF30"
-            activeColor="#5227FF30"
-            proximity={75}
-            shockRadius={250}
+            baseColor="#21212130"
+            activeColor="#8e51ff"
+            proximity={150}
+            shockRadius={450}
             shockStrength={5}
             resistance={750}
             returnDuration={1.5}
           />
-        </div> */}
+        </div>
         <main className="relative z-10 flex flex-col min-h-dvh p-2">
           {children}
         </main>
