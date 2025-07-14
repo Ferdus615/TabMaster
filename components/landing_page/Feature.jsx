@@ -2,43 +2,43 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="px-6 max-w-6xl mx-auto py-20">
-      <h2 className="text-4xl font-bold text-amber-300 text-center mb-20">
+    <div className="px-6 max-w-6xl mx-auto my-20">
+      <h2 className="text-4xl font-bold text-violet-300 text-center mb-20">
         Everything You Need to Run a Tournament – All in One App
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-15">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         {[
           {
-            title: "Smart Tournament Setup",
-            desc: "Easily configure formats like British or Asian Parliamentary, tie-break rules, speaker scoring ranges, and more.",
+            title: "Smart & Customizable Setup",
+            desc: "Auto-draws with flexible scoring, tie-breaks, and judging configs.",
           },
           {
             title: "Role-Based User Access",
             desc: "Admins, DCAs, Tab Staff, Judges, Debaters – everyone gets personalized access and tools.",
           },
           {
-            title: "Automated Draw Generator",
-            desc: "Intelligent power pairing, room assignment, and adjudicator allocation. Manual override included!",
+            title: "Effortless User Experience",
+            desc: "Clean interface for setup, draw generation, and result entry. No learning curve.",
           },
           {
-            title: "Real-Time Results Tabulation",
-            desc: "Enter scores, verify data, track standings – all live and secure.",
+            title: "Cloud-Powered Efficiency",
+            desc: "Real-time data access and collaboration from anywhere.",
           },
           {
-            title: "Break & Finals Management",
-            desc: "Auto-calculate breaks, seed elimination rounds, and record final results seamlessly.",
+            title: "Debater Profiles - A Lifelong Journey",
+            desc: "Track personal progress, stats, and tournament history in one unified profile.",
           },
           {
-            title: "Rich Analytics & Reporting",
-            desc: "Speaker averages, adjudicator performance, round-by-round breakdowns – exportable too!",
+            title: "Affordable Excellence",
+            desc: "Premium features at a fraction of the cost of outdated solutions.",
           },
-        ].map((f, i) => (
+        ].map((feature, index) => (
           <div
-            key={i}
-            className="bg-indigo-600 shadow-md rounded-xl p-6 hover:shadow-xl transition"
+            key={index}
+            className="p-4 border-2 border-violet-700 rounded-lg bg-[#10172a]"
           >
-            <h3 className="text-xl text-amber-300 font-bold mb-2">{f.title}</h3>
-            <p className="text-white font-light">{f.desc}</p>
+            <h3 className="font-bold mb-4">{feature.title}</h3>
+            <p className="font-light">{feature.desc}</p>
           </div>
         ))}
       </div>

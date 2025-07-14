@@ -1,5 +1,5 @@
 import React from "react";
-import Registration_form from "@/components/Registration";
+import Registration_form from "@/components/forms/Registration";
 import Navbar from "@/components/landing_page/Navbar";
 import Image from "next/image";
 

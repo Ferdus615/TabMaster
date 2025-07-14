@@ -1,5 +1,5 @@
 import React from "react";
-import Login_form from "@/components/Login";
+import Login_form from "@/components/forms/Login";
 import Navbar from "@/components/landing_page/Navbar";
 
 function Login() {

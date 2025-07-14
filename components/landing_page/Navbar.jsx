@@ -2,30 +2,26 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 z-100 flex justify-between w-full bg-indigo-600 px-5 py-5 sm:px-50 sm:py-5 items-center">
-      <div className="flex flex-col justify-center items-center md:flex-row">
-        <a href="/">
-          <Image
-            src="/logo-icon-w.png"
-            alt="TabMaster Logo"
-            width={45}
-            height={45}
-            className="top-4 left-4" // Adjust the position as needed
-          />
-        </a>
-        <h1 className="text-[15px] font-light ml-2 tracking-wide md:text-[20px]">
-          TabMaster
-        </h1>
-      </div>
+    <nav className="fixed top-0 left-0 z-100 w-full flex items-center justify-between bg-zinc-950 p-5 sm:px-10 md:px-20 lg:px-30 xl:px-40">
+      <a href="/">
+        <Image
+          src="/logo-wide-w.svg"
+          alt="TabMaster Logo"
+          width={150}
+          height={150}
+          className="top-4 left-4" // Adjust the position as needed
+        />
+      </a>
+
       <div className="flex gap-3 items-center justify-between font-light text-[12px] md:text-[15px]">
         <a
-          className="p-1 sm:px-2 border-1 border-indigo-500 rounded-md hover:text-indigo-300 transition-colors"
+          className="px-2 py-1 font-medium sm:px-2 rounded-md hover:bg-violet-500 transition-colors"
           href="/registration"
         >
           Register
         </a>
         <a
-          className="p-1 sm:px-2 border-1 border-indigo-500 rounded-md hover:text-indigo-300 transition-colors"
+          className="px-2 py-1 font-medium sm:px-2 rounded-md hover:bg-violet-500 transition-colors"
           href="/login"
         >
           Login

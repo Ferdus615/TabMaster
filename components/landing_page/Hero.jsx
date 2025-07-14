@@ -2,18 +2,31 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-130 mt-40 text-white">
-      <div className="mx-auto max-w-4xl sm:max-w-5xl sm:text-center">
-        <h1 className="font-semibold color-[#E5E5E5] mx-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-          Welcome to TabMaster. The Ultimate Debte Tournament Solution by NDF
-          BD.
-        </h1>
+    <div className="flex flex-col items-center justify-center lg:min-h-screen">
+      <h1 className="text-4xl font-bold p-5 mt-20 text-violet-300 sm:text-center lg:text-5xl xl:text-6xl">
+        Elevate Your Debate Tournaments: Smart Tabulation, Lifetime Debater
+        Growth.
+      </h1>
+      <p className="p-5 text-lg text-zinc-600 sm:text-center sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+        The future of debate tournament management is here. SmartTab combines
+        intuitive design with powerful features, centralizing everything from
+        draws to results, and giving every debater a lifelong record of their
+        journey.
+      </p>
+      <div className="flex flex-col gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
+        <a
+          href="#"
+          className="p-2 text-sm border-2 border-violet-700 bg-[#10172a] rounded-lg font-medium text-zinc-400 hover:cursor-pointer hover:bg-transparent transition-colors"
+        >
+          Experience Demo
+        </a>
 
-        <p className="font-light text-amber-300 mx-5 mt-4 text-sm sm:text-xl lg:text-2xl">
-          Seamlessly manage your parliamentary debate tournaments from
-          registration to final results with a powerful, intuitive, and
-          real-time tabulation system.
-        </p>
+        <a
+          href="#"
+          className="p-2 text-sm border-2 border-violet-700 bg-[#10172a] rounded-lg font-medium text-zinc-400 hover:cursor-pointer hover:bg-transparent transition-colors"
+        >
+          Contact Us
+        </a>
       </div>
     </div>
   );
