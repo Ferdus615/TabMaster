@@ -7,7 +7,7 @@ import Footer from "@/components/landing_page/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center mx-auto max-w-6xl">
+    <div className="flex flex-col items-center justify-center">
       <Navbar />
       <Hero />
       <Feature />

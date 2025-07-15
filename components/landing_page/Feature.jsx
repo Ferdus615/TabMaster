@@ -2,7 +2,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="px-6 max-w-6xl mx-auto my-20">
+    <div className="px-6 mx-auto max-w-6xl my-20">
       <h2 className="text-4xl font-bold text-violet-300 text-center mb-20">
         Everything You Need to Run a Tournament – All in One App
       </h2>
@@ -35,7 +35,7 @@ const Feature = () => {
         ].map((feature, index) => (
           <div
             key={index}
-            className="p-4 border-2 border-violet-700 rounded-lg bg-[#10172a]"
+            className="p-4 border-2 border-rose-700 rounded-lg bg-[#10172a]"
           >
             <h3 className="font-bold mb-4">{feature.title}</h3>
             <p className="font-light">{feature.desc}</p>
