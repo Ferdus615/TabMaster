@@ -2,7 +2,7 @@ import React from "react";
 
 function FinalCTA() {
   return (
-    <div className="flex flex-col mx-auto max-w-6xl gap-10 items-center justify-center p-5 mb-20 sm:flex-row">
+    <div className="flex flex-col mx-auto max-w-6xl gap-10 justify-center p-5 mb-20 sm:flex-row sm:items-center">
       <video
         autoPlay
         loop

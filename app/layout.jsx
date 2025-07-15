@@ -5,7 +5,7 @@ import DotGrid from "@/components/DotGrid";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["200", "400", "500", "700"],
+  weight: ["100", "200", "400", "500", "700"],
   style: ["normal", "italic"],
 });
 
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
             returnDuration={1.5}
           />
         </div>
-        <main className="relative z-10 flex flex-col min-h-dvh p-2">
+        <main className="relative z-10 flex flex-col min-h-dvh">
           {children}
         </main>
       </body>

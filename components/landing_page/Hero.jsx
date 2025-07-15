@@ -13,6 +13,7 @@ const Hero = () => {
         draws to results, and giving every debater a lifelong record of their
         journey.
       </p>
+      
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
         <a
           href="#"
