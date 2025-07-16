@@ -12,7 +12,7 @@ function Footer() {
 
           <div className="flex gap-15 justify-end items-center">
             <a
-              href="#"
+              href="/registration"
               className="rounded-full border-2 border-zinc-400  bg-violet-700 px-4 py-1 text-sm hover:bg-zinc-900"
             >
               Sign Up
@@ -48,10 +48,38 @@ function Footer() {
         <div className="row-3 col-span-5 flex flex-col mt-5 text-sm font-light border-t-1 pt-5 gap-2 items-start sm:p-0 sm:gap-0 sm:items-center sm:justify-between md:flex-row">
           <p>© {new Date().getFullYear()} TabMaster. All rights reserved.</p>
           <div className="flex gap-4 mt-2 md:mt-0">
-            <a href="#">Gmail</a>
-            <a href="#">GitHub</a>
-            <a href="#">Linkedin</a>
-            <a href="#">Facebook</a>
+            <a href="#">
+              <Image
+                src="/socials/mail.svg"
+                width="15"
+                height="15"
+                alt="gmail"
+              />
+            </a>
+            <a href="#">
+              <Image
+                src="/socials/github.svg"
+                width="15"
+                height="15"
+                alt="gmail"
+              />
+            </a>
+            <a href="#">
+              <Image
+                src="/socials/linkedin.svg"
+                width="15"
+                height="15"
+                alt="gmail"
+              />
+            </a>
+            <a href="#">
+              <Image
+                src="/socials/facebook.svg"
+                width="15"
+                height="15"
+                alt="gmail"
+              />
+            </a>
           </div>
         </div>
       </div>

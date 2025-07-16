@@ -35,7 +35,7 @@ function FinalCTA() {
           </a>
 
           <a
-            href="#"
+            href="/registration"
             className="rounded-full border-2 border-zinc-400  bg-rose-700 px-4 py-1 text-sm hover:bg-zinc-900"
           >
             Register
