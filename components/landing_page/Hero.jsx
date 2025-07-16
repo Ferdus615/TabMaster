@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center mx-auto max-w-6xl lg:min-h-screen">
       <h1
-        className="text-4xl font-bold p-5 mt-20 text-transparent bg-clip-text bg-gradient-to-tr
+        className="text-4xl font-bold p-5 mt-20 text-transparent bg-clip-text bg-linear-to-tr
        from-violet-500 to-rose-500 sm:text-center lg:text-5xl xl:text-6xl"
       >
         Elevate Your Debate Tournaments: Smart Tabulation, Lifetime Debater

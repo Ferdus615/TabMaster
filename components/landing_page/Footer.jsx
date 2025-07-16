@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="w-full p-5 ">
+    <footer className="w-full p-5">
       <div className="grid grid-cols-4 grid-rows-3 mx-auto max-w-6xl">
         <div className="row-1 col-span-5 flex flex-col items-start justify-between gap-10 mb-10 sm:flex-row sm:items-center">
           <div>

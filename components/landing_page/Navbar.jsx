@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 z-100 w-full  bg-[#0a0a0a] p-5 sm:px-10 md:px-20 lg:px-30 xl:px-40">
-      <div className="flex items-center justify-between mx-auto max-w-6xl">
+    <nav className="fixed top-0 left-0 z-100 w-full bg-[#0a0a0a] p-5 sm:px-10 md:px-10 lg:px-20">
+      <div className="flex items-center justify-between mx-auto max-w-6xl ">
         <a href="/">
           <Image
             src="/logo-wide-w.svg"
@@ -14,15 +14,15 @@ const Navbar = () => {
           />
         </a>
 
-        <div className="flex gap-3 items-center justify-between font-light text-[12px] md:text-[15px]">
+        <div className="flex gap-3 w-40 items-center justify-between font-light text-[12px] md:text-[15px]">
           <a
-            className="px-3 py-1 font-medium sm:px-2 rounded-full hover:border-violet-700 transition-colors"
+            className="px-2 font-medium sm:px-2 rounded-full hover:bg-violet-700 transition-colors"
             href="/registration"
           >
             Register
           </a>
           <a
-            className="px-3 py-1 font-medium sm:px-2 rounded-full hover:bg-violet-700 transition-colors"
+            className="px-2 font-medium sm:px-2 rounded-full hover:bg-violet-700 transition-colors"
             href="/login"
           >
             Login
