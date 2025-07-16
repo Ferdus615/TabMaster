@@ -13,14 +13,14 @@ function Footer() {
           <div className="flex gap-15 justify-end items-center">
             <a
               href="/registration"
-              className="rounded-full border-2 border-zinc-400  bg-violet-700 px-4 py-1 text-sm hover:bg-zinc-900"
+              className="rounded-full border-2 border-zinc-400 bg-violet-700 px-4 py-1 text-sm hover:bg-zinc-900 hover:border-violet-700"
             >
               Sign Up
             </a>
 
             <a
               href="#"
-              className="rounded-full border-2 border-zinc-400 bg-rose-700 px-4 py-1 text-sm hover:cursor-pointer hover:bg-zinc-900"
+              className="rounded-full border-2 border-zinc-400 bg-rose-700 px-4 py-1 text-sm hover:bg-zinc-900 hover:border-rose-500"
             >
               Try TabMaster
             </a>
@@ -30,17 +30,31 @@ function Footer() {
         <div className="row-2 col-span-5 flex text-sm sm:justify-end sm:text-extralight">
           <div className="flex gap-10">
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#">About Us</a>
-              <a href="#">Contact</a>
-              <a href="#">FAQ's</a>
+              <a href="#" className="hover:underline">
+                About Us
+              </a>
+              <a href="#" className="hover:underline">
+                Contact
+              </a>
+              <a href="#" className="hover:underline">
+                FAQ's
+              </a>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#">Features</a>
-              <a href="#">Pricing</a>
+              <a href="#" className="hover:underline">
+                Features
+              </a>
+              <a href="#" className="hover:underline">
+                Pricing
+              </a>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms & Condition</a>
+              <a href="#" className="hover:underline">
+                Privacy Policy
+              </a>
+              <a href="#" className="hover:underline">
+                Terms & Condition
+              </a>
             </div>
           </div>
         </div>

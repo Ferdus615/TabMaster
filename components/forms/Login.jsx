@@ -40,14 +40,17 @@ const Login = () => {
       </div>
 
       <div className="flex items-center justify-between">
-        <div className="flex gap-4 items-center">
-          <input
-            type="checkbox"
-            id="remember"
-            name="remember"
-            className="border-1 border-zinc-700 rounded-md p-2 bg-[#10172a]/40 hover:cursor-pointer"
-          />
-          <label htmlFor="remember" className="text-sm">
+        <div>
+          <label
+            htmlFor="remember"
+            className="inline-flex cursor-pointer gap-4 items-center text-center"
+          >
+            <input
+              type="checkbox"
+              id="remember"
+              name="remember"
+              className="border-1 border-zinc-700 rounded-md p-2 bg-[#10172a]/40 hover:cursor-pointer"
+            />
             Remember me
           </label>
         </div>

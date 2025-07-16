@@ -73,7 +73,7 @@ const Registration = () => {
           id="role"
           name="role"
           required
-          className="text-sm border-1 border-zinc-700 rounded-md p-2 bg-[#10172a]/40"
+          className="text-sm border-1 border-zinc-700 rounded-md p-2 bg-[#10172a]"
         >
           <option value="student">Debater</option>
           <option value="teacher">Adjudictor</option>
