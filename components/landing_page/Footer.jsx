@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import ButtonV from "../button/ButtonV";
+import ButtonR from "../button/ButtonR";
 
 function Footer() {
   return (
@@ -11,19 +13,8 @@ function Footer() {
           </div>
 
           <div className="flex gap-15 justify-end items-center">
-            <a
-              href="/registration"
-              className="rounded-full border-2 border-zinc-400 bg-violet-700 px-4 py-1 text-sm hover:bg-zinc-900 hover:border-violet-700"
-            >
-              Sign Up
-            </a>
-
-            <a
-              href="#"
-              className="rounded-full border-2 border-zinc-400 bg-rose-700 px-4 py-1 text-sm hover:bg-zinc-900 hover:border-rose-500"
-            >
-              Try TabMaster
-            </a>
+            <ButtonR text="Sign Up" link="/registration" />
+            <ButtonV text="Try TabMaster" link="" />
           </div>
         </div>
 

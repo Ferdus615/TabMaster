@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonR from "../button/ButtonR";
 
 const Hero = () => {
   return (
@@ -18,19 +19,8 @@ const Hero = () => {
       </p>
 
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
-        <a
-          href="#"
-          className="rounded-full border-2 border-violet-700 bg-rose-700 px-4 py-2 text-sm hover:bg-zinc-900 hover:border-rose-700"
-        >
-          Experience Demo
-        </a>
-
-        <a
-          href="#"
-          className="rounded-full border-2 border-violet-700 bg-rose-700 px-4 py-2 text-sm hover:bg-zinc-900 hover:border-rose-700"
-        >
-          Contact Us
-        </a>
+        <ButtonR text="Experience Demo" link="/registration" />
+        <ButtonR text="Contact Us" link="/registration" />
       </div>
     </div>
   );

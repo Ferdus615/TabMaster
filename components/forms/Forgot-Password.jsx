@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Input from "../formComponents/InputField";
+import ButtonForm from "../formComponents/ButtonForm";
 
 function ForgotPassword() {
   return (
@@ -20,25 +22,8 @@ function ForgotPassword() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-3">
-        <label htmlFor="email" className="text-sm">
-          Email
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          className="border-1 border-zinc-700 rounded-md p-2 bg-[#10172a]/40"
-        />
-      </div>
-
-      <button
-        type="submit"
-        className="mt-4 bg-[#10172a] text-white p-2 rounded-lg hover:bg-zinc-900 transition-colors duration-200"
-      >
-        Send Reset Link
-      </button>
+      <Input label="Email" type="email"/>
+      <ButtonForm text='Send Link'/>
 
       <div className="mt-4 text-sm text-zinc-400 flex flex-col gap-6">
         <p>

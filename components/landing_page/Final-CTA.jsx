@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonR from "../button/ButtonR";
 
 function FinalCTA() {
   return (
@@ -27,19 +28,8 @@ function FinalCTA() {
         </p>
 
         <div className="flex gap-5 sm:flex-row items-center justify-between w-60 mt-5">
-          <a
-            href="#"
-            className="rounded-full border-2 border-zinc-400  bg-rose-700 px-4 py-1 text-sm hover:bg-zinc-900"
-          >
-            Try Demo
-          </a>
-
-          <a
-            href="/registration"
-            className="rounded-full border-2 border-zinc-400  bg-rose-700 px-4 py-1 text-sm hover:bg-zinc-900"
-          >
-            Register
-          </a>
+          <ButtonR text="Try Demo" link="#" />
+          <ButtonR text="Register" link="#" />
         </div>
       </div>
     </div>
