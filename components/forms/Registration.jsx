@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Input from "../formComponents/InputField";
 import ButtonForm from "../formComponents/ButtonForm";
+import DropDownMenu from "../formComponents/DropDownMenu";
 
 const Registration = () => {
   return (
@@ -14,8 +15,13 @@ const Registration = () => {
       <Input label="Full Name" type="text" id="text" />
       <Input label="Institution" type="text" id="text" />
       <Input label="Password" type="password" id="password" />
+      <DropDownMenu
+        label="Roles"
+        text="Select Role"
+        items={["Debater", "Adjudicator", "Organizer", "Guest"]}
+      />
 
-      <div className="flex flex-col gap-3">
+      {/* <div className="flex flex-col gap-3">
         <label htmlFor="role" className="text-sm">
           Select Role
         </label>
@@ -29,7 +35,7 @@ const Registration = () => {
           <option value="teacher">Adjudictor</option>
           <option value="admin">Organizer</option>
         </select>
-      </div>
+      </div> */}
 
       <ButtonForm text="Register" />
 
