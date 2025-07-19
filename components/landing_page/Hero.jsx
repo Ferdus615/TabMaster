@@ -4,10 +4,7 @@ import ButtonR from "../button/ButtonR";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center mx-auto max-w-6xl lg:min-h-screen">
-      <h1
-        className="text-4xl font-bold p-5 mt-20 text-transparent bg-clip-text bg-linear-to-tr
-       from-violet-500 to-rose-500 sm:text-center lg:text-5xl xl:text-6xl"
-      >
+      <h1 className="fluid-text gradient-text mt-20 sm:text-center">
         Elevate Your Debate Tournaments: Smart Tabulation, Lifetime Debater
         Growth.
       </h1>
