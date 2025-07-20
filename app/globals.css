@@ -46,7 +46,7 @@ body {
 }
 
 @utility fluid-text {
-  @apply text-[min(10vw,60px)] leading-15 font-bold p-5;
+  @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5;
 }
 
 @utility gradient-text {
