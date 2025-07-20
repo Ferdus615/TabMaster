@@ -23,7 +23,7 @@ const Login = () => {
         <CheckBox label="Remember me" id="remember" />
 
         <div>
-          <a href="/forgot-password" className="text-sm underline">
+          <a href="/forgot-password" className="form-link-text text-sm">
             Forgot password?
           </a>
         </div>
@@ -31,9 +31,9 @@ const Login = () => {
 
       <ButtonForm text="Login" />
 
-      <p className="mt-4 text-sm text-zinc-400 ">
+      <p className="mt-4 text-sm text-zinc-text ">
         Don't have an account?{" "}
-        <a href="/registration" className="text-white underline">
+        <a href="/registration" className="form-link-text">
           Register
         </a>
       </p>

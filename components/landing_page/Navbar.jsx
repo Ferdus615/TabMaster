@@ -16,13 +16,13 @@ const Navbar = () => {
 
         <div className="flex gap-3 w-40 items-center justify-between font-light text-[12px] md:text-[15px]">
           <a
-            className="px-2 font-medium sm:px-2 rounded-full hover:bg-violet-700 transition-colors"
+            className="px-2 font-medium sm:px-2 rounded-full hover:bg-sky-hover transition-colors"
             href="/registration"
           >
             Register
           </a>
           <a
-            className="px-2 font-medium sm:px-2 rounded-full hover:bg-violet-700 transition-colors"
+            className="px-2 font-medium sm:px-2 rounded-full hover:bg-sky-hover transition-colors"
             href="/login"
           >
             Login

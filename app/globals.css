@@ -1,20 +1,22 @@
 @import "tailwindcss";
+
 :root {
   --font-body: var(--font-inter);
 }
 
-/* 
-#10172a #violet-black
-#0a0a0a #dark-black
-#e5e5e5 #light-gray
-#171717 #dark-gray
-#212121 #zinc-800
-#8e51ff #violet
-#2b7fff #blue
-#5ea500 #green
-zinc
+*::selection {
+  background-color: oklch(68.5% 0.169 237.323);
+  color: antiquewhite;
+}
 
- */
+::-webkit-scrollbar {
+  background-color: #0a0a0a;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e5e5e5;
+  border-radius: 20px;
+}
 
 /* globals.css */
 html,
@@ -23,26 +25,27 @@ body {
   padding: 0;
   height: 100%;
   scroll-behavior: smooth;
-}
-
-body,
-a {
-  font-family: var(--font-body);
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-body);
-}
-
-/* ========================================================== */
-
-body {
-  /* background-color: #10172a; */
   background-color: #0a0a0a;
   color: #e5e5e5;
+  font-family: var(--font-body);
+}
+/* ========================================================== */
+
+/* 
+#10172a #violet-black
+#0a0a0a #dark-black
+#e5e5e5 #light-gray
+#171717 #dark-gray
+*/
+
+@theme {
+  --color-persian: #10172a;
+  --color-violet: oklch(60.6% 0.25 292.717);
+  --color-rose: oklch(64.5% 0.246 16.439);
+  --color-sky: oklch(68.5% 0.169 237.323); /* sky-500 */
+  --color-sky-hover: oklch(58.8% 0.158 241.966); /* sky-600 */
+  --color-zinc-text: oklch(70.5% 0.015 286.067); /* zinc-400 */
+  --color-zinc-border: oklch(37% 0.013 285.805); /* zinc-700 */
 }
 
 @utility fluid-text {
@@ -50,5 +53,19 @@ body {
 }
 
 @utility gradient-text {
-  @apply text-transparent bg-clip-text bg-linear-to-tr from-violet-500 to-rose-500;
+  @apply text-transparent bg-clip-text bg-linear-to-tr from-violet to-rose;
+}
+
+@utility link-text {
+  @apply hover:underline hover:text-sky-300;
+}
+
+@utility form-link-text {
+  @apply text-white underline hover:text-sky-300;
+}
+
+@layer component {
+  .card {
+    @apply p-4 border-2 border-sky rounded-lg bg-persian;
+  }
 }

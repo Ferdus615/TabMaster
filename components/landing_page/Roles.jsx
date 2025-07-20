@@ -1,5 +1,5 @@
 import React from "react";
-import VButton from "../button/VButton";
+import VButton from "../button/SButton";
 
 const Roles = () => {
   return (

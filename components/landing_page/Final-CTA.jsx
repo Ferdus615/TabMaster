@@ -22,7 +22,7 @@ function FinalCTA() {
           Ready to Transform Your Next Debate Tournament?
         </h1>
 
-        <p className="text-md text-zinc-400 sm:text-lg md:text-xl lg:text-2xl mb-10">
+        <p className="text-md text-zinc-text sm:text-lg md:text-xl lg:text-2xl mb-10">
           Join the growing community of organizers embracing the future of
           tournament management.
         </p>

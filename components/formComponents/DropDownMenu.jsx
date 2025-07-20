@@ -24,7 +24,7 @@ function DropDownMenu(props) {
       <div
         id="btn"
         onClick={toggleMenu}
-        className="inline-flex justify-between border-1 border-zinc-700 rounded-md p-3 bg-[#10172a]/40 hover:cursor-pointer"
+        className="inline-flex justify-between border-1 border-zinc-border rounded-md p-3 bg-persian/40 hover:cursor-pointer"
       >
         <span id="btnText" className="text-sm">
           {selectedText}
@@ -39,7 +39,7 @@ function DropDownMenu(props) {
       </div>
 
       {isOpen && (
-        <div id="list" className="bg-[#10172a]/70 p-3 rounded-md">
+        <div id="list" className="bg-persian/70 p-3 rounded-md">
           {props.items.map((item, index) => {
             return (
               <p

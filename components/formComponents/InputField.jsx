@@ -11,7 +11,7 @@ const Input = (props) => {
         id={props.id}
         name={props.id}
         required
-        className="border-1 border-zinc-700 rounded-md p-2 bg-[#10172a]/40"
+        className="border-1 border-zinc-border rounded-md p-2 bg-persian/40"
       />
     </div>
   );

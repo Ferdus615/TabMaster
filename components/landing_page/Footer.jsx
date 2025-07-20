@@ -21,29 +21,29 @@ function Footer() {
         <div className="row-2 col-span-5 flex text-sm sm:justify-end sm:text-extralight">
           <div className="flex gap-10">
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 About Us
               </a>
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 Contact
               </a>
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 FAQ's
               </a>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 Features
               </a>
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 Pricing
               </a>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:underline">
+              <a href="#" className="link-text">
                 Terms & Condition
               </a>
             </div>

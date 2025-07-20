@@ -20,20 +20,20 @@ const Registration = () => {
       />
       <ButtonForm text="Register" />
 
-      <p className="mt-4 text-sm text-zinc-400">
+      <p className="mt-4 text-sm text-zinc-text">
         Already have an account?{" "}
-        <a href="/login" className="text-white underline">
+        <a href="/login" className="form-link-text">
           Login here
         </a>
       </p>
 
-      <p className="mt-2 text-sm text-zinc-400">
+      <p className="mt-2 text-sm text-zinc-text">
         By registering, you agree to our{" "}
-        <a href="/terms" className="text-white underline">
+        <a href="/terms" className="form-link-text">
           Terms of Service
         </a>{" "}
         and{" "}
-        <a href="/privacy" className="text-white underline">
+        <a href="/privacy" className="form-link-text">
           Privacy Policy
         </a>
         .

@@ -29,7 +29,7 @@ const CheckBox = (props) => {
           onChange={logIsChecked}
           className="appearance-none sr-only peer p-[5px] border-2 rounded-sm"
         />
-        <div className="p-[5px] border-2 rounded-sm peer-checked:bg-rose-500 peer-checked:border-rose-500 ease-in-out"></div>
+        <div className="p-[5px] border-2 rounded-sm peer-checked:bg-sky peer-checked:border-sky ease-in-out"></div>
         <span className="text-sm">{props.label}</span>
       </label>
     </div>
