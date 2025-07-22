@@ -8,7 +8,7 @@ const Hero = () => {
         Elevate Your Debate Tournaments: Smart Tabulation, Lifetime Debater
         Growth.
       </h1>
-      <p className="p-5 text-lg text-zinc-text sm:text-center sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+      <p className="fluid-p sm:text-center">
         The future of debate tournament management is here. SmartTab combines
         intuitive design with powerful features, centralizing everything from
         draws to results, and giving every debater a lifelong record of their
