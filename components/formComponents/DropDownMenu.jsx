@@ -40,10 +40,11 @@ function DropDownMenu(props) {
 
       {isOpen && (
         <div id="list" className="bg-persian/70 p-3 rounded-md">
-          {props.items.map((item, index) => {
+          {props.items.map((item) => {
             return (
               <p
-                id={index}
+                id={item}
+                key={item}
                 onClick={() => updateText(item)}
                 className="listItem p-1 text-sm font-regular hover:bg-rose-700 rounded-md hover:cursor-pointer"
               >
