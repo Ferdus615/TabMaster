@@ -45,7 +45,7 @@ const Roles = () => {
               key={role}
               text={role}
               id={role}
-              onClick={handleRoleClick(role)}
+              onClick={() => handleRoleClick(role)}
             />
           );
         })}
@@ -58,7 +58,7 @@ const Roles = () => {
         >
           {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
             return (
-              <div className="border-2">
+              <div key={key} className="border-2">
                 <h2>{key}</h2>
                 <p>{value}</p>
               </div>
