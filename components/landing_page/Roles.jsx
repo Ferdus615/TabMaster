@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import SButton from "../button/SButton";
 
 const Roles = () => {
@@ -30,21 +30,44 @@ const Roles = () => {
     },
   };
 
+  const [selectedRole, setSelectedRole] = useState("Admin");
+
+  const handleRoleClick = (role) => {
+    setSelectedRole(role);
+  };
+
   return (
     <div className="flex flex-col gap-5 px-3 mb-20 mx-auto max-w-6xl">
-      <div className="flex gap-3">
-        <SButton text="Debater" link="#" id="debater" className="text-sm" />
-        <SButton
-          text="Adjudicator"
-          link="#"
-          id="adjudicator"
-          className="text-sm"
-        />
-        <SButton text="Organizer" link="#" id="organizer" className="text-sm" />
-        <SButton text="Guest" link="#" id="guest" className="text-sm" />
+      <div id="btns" className="flex gap-3">
+        {Object.keys(roleAct).map((role) => {
+          return (
+            <SButton
+              key={role}
+              text={role}
+              id={role}
+              onClick={handleRoleClick(role)}
+            />
+          );
+        })}
       </div>
 
-      <div className="border-1 bg-emerald-200 rounded-md w-full"></div>
+      {selectedRole ? (
+        <div
+          id="activity"
+          className="border-1 bg-emerald-200 rounded-md w-full"
+        >
+          {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
+            return (
+              <div className="border-2">
+                <h2>{key}</h2>
+                <p>{value}</p>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <p>Please select a role!</p>
+      )}
     </div>
   );
 };
