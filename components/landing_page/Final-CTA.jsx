@@ -3,7 +3,7 @@ import ButtonR from "../button/ButtonR";
 
 function FinalCTA() {
   return (
-    <div className="flex flex-col mx-auto max-w-6xl gap-20 justify-center p-5 mb-20 sm:flex-row sm:items-center">
+    <div className="flex flex-col mx-auto max-w-6xl gap-10 justify-center p-5 mb-20 sm:gap-20 sm:flex-row sm:items-center">
       <video
         autoPlay
         loop
@@ -18,11 +18,11 @@ function FinalCTA() {
       </video>
 
       <div className="flex flex-col items-start">
-        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-10">
+        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-5">
           Ready to Transform Your Next Debate Tournament?
         </h1>
 
-        <p className="text-md text-zinc-text sm:text-lg md:text-xl lg:text-2xl mb-10">
+        <p className="text-md text-zinc-text sm:text-lg md:text-xl lg:text-2xl mb-5">
           Join the growing community of organizers embracing the future of
           tournament management.
         </p>
