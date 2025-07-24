@@ -5,7 +5,7 @@ function SButton({ id = "", text = "Click Me", onClick }) {
     <button
       id={id}
       onClick={onClick}
-      className="bg-sky px-2 py-1 rounded-full border-1 border-sky hover:bg-persian text-sm font-regular flex justify-center"
+      className="bg-sky px-2 py-1 rounded-full border-1 border-sky hover:bg-persian text-sm font-regular flex justify-center hover:cursor-pointer"
     >
       {text}
     </button>
