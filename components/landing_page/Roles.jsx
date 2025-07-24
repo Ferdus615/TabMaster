@@ -1,11 +1,8 @@
-"use client"
+"use client";
 import React from "react";
 import SButton from "../button/SButton";
 
 const Roles = () => {
-
-  const
-
   const roleAct = {
     Admin: {
       "Full Control": "Manage tournament setup, draws, results, and users.",
@@ -32,8 +29,6 @@ const Roles = () => {
         "Observe the tournaments progression from teams, draws, topics, result etc.",
     },
   };
-
-  
 
   return (
     <div className="flex flex-col gap-5 px-3 mb-20 mx-auto max-w-6xl">
