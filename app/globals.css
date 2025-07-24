@@ -70,6 +70,6 @@ body {
 
 @layer component {
   .card {
-    @apply p-4 border-2 border-sky rounded-lg bg-persian;
+    @apply flex flex-col gap-5 p-4 border-2 border-sky rounded-lg bg-persian;
   }
 }

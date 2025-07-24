@@ -37,7 +37,7 @@ const Roles = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 px-3 mb-20 mx-auto max-w-6xl">
+    <div className="flex flex-col gap-10 px-3 mb-20 mx-auto max-w-6xl items-center">
       <div id="btns" className="flex gap-3">
         {Object.keys(roleAct).map((role) => {
           return (
@@ -54,11 +54,14 @@ const Roles = () => {
       {selectedRole ? (
         <div
           id="activity"
-          className="border-1 bg-emerald-200 rounded-md w-full"
+          className="w-6xl flex flex-wrap gap-5 justify-center items-center"
         >
           {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
             return (
-              <div key={key} className="border-2">
+              <div
+                key={key}
+                className="card w-100"
+              >
                 <h2>{key}</h2>
                 <p>{value}</p>
               </div>
