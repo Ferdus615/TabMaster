@@ -1,6 +1,6 @@
 import React from "react";
 
-function SButton({ id = "", text = "Click Me", onClick }) {
+function SButton({ id = "", text = "Click Me", onClick, className }) {
   return (
     <button
       id={id}

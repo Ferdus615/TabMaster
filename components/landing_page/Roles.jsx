@@ -22,10 +22,10 @@ const Roles = () => {
     },
     Organizer: {
       "Hosts the venue":
-        "Organizers hosts the team & adjudicators to their respective team by confirming them.",
+        "Organizers hosts the team & adjudicators to their respective team by confirming them from the tournament profile.",
     },
     Guest: {
-      "Track the tournament":
+      "Observe the tournament":
         "Observe the tournaments progression from teams, draws, topics, result etc.",
     },
   };
@@ -37,13 +37,17 @@ const Roles = () => {
   };
 
   return (
-    <div className="flex flex-col flex-warp gap-10 px-3 mb-20 mx-auto max-w-6xl items-center">
-      <div className="flex flex-col items-center">
-        <h1>A Tailored Experience for Everyone</h1>
-        <p>Select a role to see the features designed specifically for you.</p>
+    <div className="flex flex-col flex-warp gap-10 mb-20 px-5 mx-auto max-w-6xl items-center">
+      <div className="flex flex-col justify-center items-center">
+        <h1 className="fluid-p font-bold text-center mb-3 text-violet">
+          A Tailored Experience for Everyone
+        </h1>
+        <p className="font-light text-center">
+          Select a role to see the features designed specifically for you.
+        </p>
       </div>
 
-      <div id="btns" className="flex gap-3">
+      <div id="btns" className="flex flex-wrap gap-3">
         {Object.keys(roleAct).map((role) => {
           return (
             <SButton
@@ -59,7 +63,7 @@ const Roles = () => {
       {selectedRole ? (
         <div
           id="activity"
-          className="w-6xl flex flex-wrap gap-5 justify-center items-center"
+          className="flex flex-wrap gap-5 justify-center items-center "
         >
           {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
             return (
