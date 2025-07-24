@@ -1,6 +1,6 @@
 import React from "react";
 
-function VButton(props) {
+function SButton(props) {
   return (
     <a
       href={props.link}
@@ -12,4 +12,4 @@ function VButton(props) {
   );
 }
 
-export default VButton;
+export default SButton;
