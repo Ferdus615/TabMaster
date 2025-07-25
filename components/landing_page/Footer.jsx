@@ -44,7 +44,7 @@ function Footer() {
               <Link href="#" className="link-text">
                 Privacy Policy
               </Link>
-              <Link href="" className="link-text">
+              <Link href="/terms" className="link-text">
                 Terms & Condition
               </Link>
             </div>

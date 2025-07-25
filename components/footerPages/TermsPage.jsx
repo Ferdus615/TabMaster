@@ -1,9 +1,8 @@
 import React from "react";
 
-
-function Terms_Condition() {
+const Terms = () => {
   return (
-    <div>
+    <div className="">
       <h1>Terms & Conditions</h1>
       <p>
         <strong>Last Updated:</strong> July 26, 2025
@@ -87,6 +86,6 @@ function Terms_Condition() {
       </p>
     </div>
   );
-}
+};
 
-export default Terms_Condition;
+export default Terms;
