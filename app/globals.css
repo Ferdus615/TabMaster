@@ -74,3 +74,25 @@ body {
     @apply flex flex-col gap-5 p-4 border-2 border-sky rounded-lg bg-persian;
   }
 }
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold mb-5;
+  }
+
+  h2 {
+    @apply text-xl font-medium mb-2;
+  }
+
+  p {
+    @apply text-lg font-light mb-5;
+  }
+
+  ul {
+    @apply ml-10 mb-5;
+  }
+
+  li {
+    @apply text-lg italic font-light list-disc;
+  }
+}
