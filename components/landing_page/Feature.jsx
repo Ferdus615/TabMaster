@@ -34,7 +34,7 @@ const Feature = () => {
           },
         ].map((feature, index) => (
           <div key={index} className="card">
-            <h3 className="font-bold mb-4">{feature.title}</h3>
+            <h3 className="font-bold">{feature.title}</h3>
             <p className="font-light">{feature.desc}</p>
           </div>
         ))}

@@ -1,26 +1,18 @@
 import React from "react";
 
-function SButton({
-  link = "#",
-  id = "",
-  text = "Click Me",
-  onClick,
-  className,
-}) {
-  const handleClick = (event) => {
-    if (onClick) {
-    }
-  };
-
+function SButton({ id = "", text = "Click Me", onClick, className, selected }) {
   return (
-    <a
-      href={link}
+    <button
       id={id}
-      onClick={handleClick}
-      className="bg-sky px-2 py-1 rounded-full border-1 border-sky hover:bg-persian text-sm font-regular flex justify-center"
+      onClick={onClick}
+      className={`${
+        selected
+          ? "bg-sky text-persian"
+          : "bg-persian hover:bg-persian hover:text-white"
+      } px-2 py-1 rounded-full border-1 text-sm font-regular flex justify-center transition hover:cursor-pointer ${className}`}
     >
       {text}
-    </a>
+    </button>
   );
 }
 

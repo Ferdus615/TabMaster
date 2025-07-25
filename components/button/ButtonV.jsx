@@ -1,6 +1,6 @@
 import React from "react";
 
-const ButtonV = ({ link = "#", id = "", text = "Click Me" }) => {
+const ButtonV = ({ link = "#", id = "", text = "Click Me", onClick }) => {
   return (
     <a
       href={link}
