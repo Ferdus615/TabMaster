@@ -9,7 +9,7 @@ const Hero = () => {
         Growth.
       </h1>
       <p className="fluid-p sm:text-center">
-        The future of debate tournament management is here. SmartTab combines
+        The future of debate tournament management is here. TabMaster combines
         intuitive design with powerful features, centralizing everything from
         draws to results, and giving every debater a lifelong record of their
         journey.

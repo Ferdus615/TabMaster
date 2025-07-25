@@ -39,6 +39,7 @@ body {
 */
 
 @theme {
+  --color-colorText: #e5e5e5;
   --color-persian: #10172a;
   --color-violet: oklch(60.6% 0.25 292.717);
   --color-rose: oklch(64.5% 0.246 16.439);

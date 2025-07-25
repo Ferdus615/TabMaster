@@ -55,6 +55,7 @@ const Roles = () => {
               text={role}
               id={role}
               onClick={() => handleRoleClick(role)}
+              selected={selectedRole === role}
             />
           );
         })}
