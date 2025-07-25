@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import ButtonV from "../button/ButtonV";
 import ButtonR from "../button/ButtonR";
 
@@ -21,31 +22,31 @@ function Footer() {
         <div className="row-2 col-span-5 flex text-sm sm:justify-end sm:text-extralight">
           <div className="flex gap-10">
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#" className="link-text">
+              <Link href="#" className="link-text">
                 About Us
-              </a>
-              <a href="#" className="link-text">
+              </Link>
+              <Link href="#" className="link-text">
                 Contact
-              </a>
-              <a href="#" className="link-text">
+              </Link>
+              <Link href="#" className="link-text">
                 FAQ's
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#" className="link-text">
+              <Link href="#" className="link-text">
                 Features
-              </a>
-              <a href="#" className="link-text">
+              </Link>
+              <Link href="#" className="link-text">
                 Pricing
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <a href="#" className="link-text">
+              <Link href="#" className="link-text">
                 Privacy Policy
-              </a>
-              <a href="#" className="link-text">
+              </Link>
+              <Link href="" className="link-text">
                 Terms & Condition
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -53,7 +54,10 @@ function Footer() {
         <div className="row-3 col-span-5 flex flex-col mt-5 text-sm font-light border-t-1 pt-5 gap-2 items-start sm:p-0 sm:gap-0 sm:items-center sm:justify-between md:flex-row">
           <p>© {new Date().getFullYear()} TabMaster. All rights reserved.</p>
           <div className="flex gap-4 mt-2 md:mt-0">
-            <a href="#">
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=feriqra007@gmail.com&su=Hello%20Ferdus&body=I%20want%20to%20ask%20you...%20"
+              target="_blank"
+            >
               <Image
                 src="/socials/mail.svg"
                 width="15"
@@ -61,7 +65,7 @@ function Footer() {
                 alt="gmail"
               />
             </a>
-            <a href="#">
+            <a href="https://www.github.com/ferdus615" target="_blank">
               <Image
                 src="/socials/github.svg"
                 width="15"
@@ -69,7 +73,7 @@ function Footer() {
                 alt="gmail"
               />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/ferdus615" target="_blank">
               <Image
                 src="/socials/linkedin.svg"
                 width="15"
@@ -77,7 +81,10 @@ function Footer() {
                 alt="gmail"
               />
             </a>
-            <a href="#">
+            <a
+              href="https://www.facebook.com/NationalDebatefederationbd"
+              target="_blank"
+            >
               <Image
                 src="/socials/facebook.svg"
                 width="15"

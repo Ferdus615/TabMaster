@@ -5,7 +5,9 @@ import SButton from "../button/SButton";
 const Roles = () => {
   const roleAct = {
     Admin: {
-      "Full Control": "Manage tournament setup, draws, results, and users.",
+      "Tournament Creation":
+        "Admin can create, edit, manage & end the tournament.",
+      "Full Control": "From tournament setup, draws, results, and users.",
       "Manual Overrides":
         "Adjust any automated assignment with conflict warnings.",
     },
@@ -13,6 +15,8 @@ const Roles = () => {
       "Live Schedule": "View your team's schedule, rooms, and opponents.",
       "Track Performance":
         "See your team's results and individual speaker scores after they are released.",
+      "Adjudicator Evaluation":
+        "Evaluate the adjudictor of your room with full discretion.",
     },
     Adjudicator: {
       "View Assignments":
@@ -38,8 +42,8 @@ const Roles = () => {
 
   return (
     <div className="flex flex-col flex-warp gap-10 mb-20 px-5 mx-auto max-w-6xl items-center">
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="fluid-p font-bold text-center mb-3 text-violet">
+      <div className="flex flex-col justify-center items-center mb-7">
+        <h1 className="fluid-p font-bold text-center text-violet">
           A Tailored Experience for Everyone
         </h1>
         <p className="font-light text-center">
