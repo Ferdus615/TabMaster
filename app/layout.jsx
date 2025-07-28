@@ -5,7 +5,7 @@ import DotGrid from "@/components/DotGrid";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["100", "200", "400", "500", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
 

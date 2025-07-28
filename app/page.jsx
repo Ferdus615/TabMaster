@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Feature />
-      <FinalCTA />
       <Roles />
+      <FinalCTA />
       <Footer />
     </div>
   );

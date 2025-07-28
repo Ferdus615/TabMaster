@@ -41,47 +41,46 @@ const Roles = () => {
   };
 
   return (
-    <div className="flex flex-col flex-warp gap-10 mb-20 px-5 mx-auto max-w-6xl items-center">
-      <div className="flex flex-col justify-center items-center mb-7">
-        <h1 className="fluid-p font-bold text-center text-violet">
+    <div className="flex flex-col flex-warp gap-5 mb-20 px-5 mx-auto max-w-6xl items-center">
+      <div className="flex flex-col justify-center items-center mb-3">
+        <h2 className="fluid-p font-bold text-center text-violet mb-0">
           A Tailored Experience for Everyone
-        </h1>
-        <p className="font-light text-center">
+        </h2>
+        <p className="text-lg font-light sm:text-center mb-5">
           Select a role to see the features designed specifically for you.
         </p>
       </div>
 
-      <div id="btns" className="flex flex-wrap gap-3">
-        {Object.keys(roleAct).map((role) => {
-          return (
-            <SButton
-              key={role}
-              text={role}
-              id={role}
-              onClick={() => handleRoleClick(role)}
-              selected={selectedRole === role}
-            />
-          );
-        })}
-      </div>
-
-      {selectedRole ? (
-        <div
-          id="activity"
-          className="flex flex-wrap gap-5 justify-center items-center "
-        >
-          {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
+      <div className="div-bg flex flex-col items-center gap-10">
+        <div id="btns" className="flex flex-wrap gap-3 ">
+          {Object.keys(roleAct).map((role) => {
             return (
-              <div key={key} className="card w-90">
-                <h2 className="font-bold">{key}</h2>
-                <p className="font-light">{value}</p>
-              </div>
+              <SButton
+                key={role}
+                text={role}
+                id={role}
+                onClick={() => handleRoleClick(role)}
+                selected={selectedRole === role}
+              />
             );
           })}
         </div>
-      ) : (
-        <p>Please select a role!</p>
-      )}
+
+        {selectedRole ? (
+          <div id="activity" className="card-grid gap-10">
+            {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
+              return (
+                <div key={key} className="card">
+                  <h2 className="font-bold">{key}</h2>
+                  <p className="font-light">{value}</p>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <p>Please select a role!</p>
+        )}
+      </div>
     </div>
   );
 };
