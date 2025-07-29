@@ -25,7 +25,7 @@ function Footer() {
               <Link href="#" className="link-text">
                 About Us
               </Link>
-              <Link href="#" className="link-text">
+              <Link href="/contact" className="link-text">
                 Contact
               </Link>
               <Link href="#" className="link-text">
@@ -41,7 +41,7 @@ function Footer() {
               </Link>
             </div>
             <div className="flex flex-col gap-3 font-extralight">
-              <Link href="#" className="link-text">
+              <Link href="/privacy" className="link-text">
                 Privacy Policy
               </Link>
               <Link href="/terms" className="link-text">

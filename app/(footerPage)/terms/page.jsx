@@ -2,11 +2,7 @@ import React from "react";
 import Terms from "@/components/footerPages/TermsPage";
 
 function terms() {
-  return (
-    <div>
-      <Terms />
-    </div>
-  );
+  return <Terms />;
 }
 
 export default terms;
