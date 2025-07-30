@@ -4,7 +4,7 @@ import Link from "next/link";
 import ButtonV from "../button/ButtonV";
 import ButtonR from "../button/ButtonR";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="w-full p-5">
       <div className="grid grid-cols-4 grid-rows-3 mx-auto max-w-6xl">

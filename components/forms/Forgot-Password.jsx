@@ -3,7 +3,7 @@ import Image from "next/image";
 import Input from "../formComponents/InputField";
 import ButtonForm from "../formComponents/ButtonForm";
 
-function ForgotPassword() {
+const ForgotPassword = () => {
   return (
     <form action="post" className="grid grid-cols-1 w-full max-w-sm gap-8">
       <Image

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-function DropDownMenu(props) {
+const DropDownMenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [selectedText, setSelectedText] = useState(props.text);
@@ -56,6 +56,6 @@ function DropDownMenu(props) {
       )}
     </div>
   );
-}
+};
 
 export default DropDownMenu;

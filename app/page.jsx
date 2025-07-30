@@ -5,6 +5,7 @@ import Feature from "@/components/landing_page/Feature";
 import FinalCTA from "@/components/landing_page/Final-CTA";
 import Roles from "@/components/landing_page/Roles";
 import Footer from "@/components/landing_page/Footer";
+import Tech from "@/components/landing_page/Tech";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Feature />
       <Roles />
       <FinalCTA />
+      <Tech />
       <Footer />
     </div>
   );

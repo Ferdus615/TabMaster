@@ -1,6 +1,12 @@
 import React from "react";
 
-function SButton({ id = "", text = "Click Me", onClick, className, selected }) {
+const SButton = ({
+  id = "",
+  text = "Click Me",
+  onClick,
+  className,
+  selected,
+}) => {
   return (
     <button
       id={id}
@@ -14,6 +20,6 @@ function SButton({ id = "", text = "Click Me", onClick, className, selected }) {
       {text}
     </button>
   );
-}
+};
 
 export default SButton;

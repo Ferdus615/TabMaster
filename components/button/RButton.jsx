@@ -1,6 +1,6 @@
 import React from "react";
 
-function RButton({ id = "", text = "Click Me", onClick }) {
+const RButton = ({ id = "", text = "Click Me", onClick }) => {
   return (
     <button
       id={id}
@@ -10,6 +10,6 @@ function RButton({ id = "", text = "Click Me", onClick }) {
       {text}
     </button>
   );
-}
+};
 
 export default RButton;

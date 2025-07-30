@@ -53,6 +53,10 @@ body {
   @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5;
 }
 
+@utility fluid-h {
+  @apply text-[min(6vw,40px)] leading-[min(1,1.5)] font-bold;
+}
+
 @utility fluid-p {
   @apply text-[min(6vw,36px)] leading-[min(1,1.5)] text-zinc-text/70 p-5;
 }
@@ -71,7 +75,7 @@ body {
 
 @layer component {
   .card {
-    @apply flex flex-col gap-5 p-4 border-2 border-sky rounded-lg bg-persian;
+    @apply flex flex-col gap-5 p-4 border-1 border-sky rounded-lg;
   }
   .div-bg {
     @apply bg-persian/40 p-5 rounded-2xl shadow-xl;

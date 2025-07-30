@@ -1,6 +1,6 @@
 import React from "react";
 
-const ButtonForm = (props) => {
+const ButtonForm = ([props]) => {
   return (
     <button
       type="submit"
