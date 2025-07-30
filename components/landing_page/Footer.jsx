@@ -51,8 +51,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="row-3 col-span-5 flex flex-col mt-5 text-sm font-light border-t-1 pt-5 gap-2 items-start sm:p-0 sm:gap-0 sm:items-center sm:justify-between md:flex-row">
-          <p>© {new Date().getFullYear()} TabMaster. All rights reserved.</p>
+        <div className="row-3 col-span-5 flex flex-col mt-5 text-sm font-light border-t-1 pt-5 gap-2 items-center sm:p-0 sm:gap-0 sm:items-center sm:justify-between md:flex-row">
+          <p className="text-sm">
+            © {new Date().getFullYear()} TabMaster. All rights reserved.
+          </p>
           <div className="flex gap-4 mt-2 md:mt-0">
             <a
               href="https://mail.google.com/mail/?view=cm&to=feriqra007@gmail.com&su=Hello%20Ferdus&body=I%20want%20to%20ask%20you...%20"
@@ -97,6 +99,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
