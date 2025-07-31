@@ -3,6 +3,7 @@ import Image from "next/image";
 import Input from "../formComponents/InputField";
 import ButtonForm from "../formComponents/ButtonForm";
 import DropDownMenu from "../formComponents/DropDownMenu";
+import CheckBox from "../formComponents/CheckBox";
 
 const Registration = () => {
   return (
@@ -18,6 +19,7 @@ const Registration = () => {
         text="Select Role"
         items={["Debater", "Adjudicator", "Organizer", "Guest"]}
       />
+      <CheckBox id="agree" label="I agree to the terms & condition." />
       <ButtonForm text="Register" />
 
       <p className="mt-4 text-sm text-zinc-text">
