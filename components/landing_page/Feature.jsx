@@ -9,7 +9,7 @@ const Feature = () => {
       <p className="text-lg font-light sm:text-center mb-15">
         Explore the core features that makes TabMaster so powerfull.
       </p>
-      <div className="card-grid div-bg">
+      <div className="card-grid">
         {[
           {
             title: "Smart & Customizable Setup",

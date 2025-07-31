@@ -51,7 +51,7 @@ const Roles = () => {
         </p>
       </div>
 
-      <div className="div-bg flex flex-col items-center gap-10">
+      <div className="flex flex-col items-center gap-10">
         <div id="btns" className="flex flex-wrap gap-3 ">
           {Object.keys(roleAct).map((role) => {
             return (
