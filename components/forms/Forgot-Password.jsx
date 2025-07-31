@@ -15,8 +15,8 @@ const ForgotPassword = () => {
 
       <h1 className="text-2xl/8 font-medium">Reset your password</h1>
 
-      <div className="text-sm text-zinc-text">
-        <p>
+      <div className="text-zinc-text">
+        <p className="text-sm">
           Enter your email address and we'll send you a link to reset your
           password.
         </p>
@@ -25,18 +25,18 @@ const ForgotPassword = () => {
       <Input label="Email" type="email" />
       <ButtonForm text="Send Link" />
 
-      <div className="mt-4 text-sm text-zinc-text flex flex-col gap-6">
-        <p>
+      <div className="text-zinc-text">
+        <p className="text-sm pt-4">
           Don't have an account?{" "}
           <a href="/registration" className="form-link-text">
-            Register
+            Register.
           </a>
         </p>
 
-        <p>
+        <p className="text-sm pt-4">
           Remembered your password?{" "}
           <a href="/login" className="form-link-text">
-            Log in
+            Log in.
           </a>
         </p>
       </div>
@@ -44,6 +44,6 @@ const ForgotPassword = () => {
       {/* <div className="text-sm text-zinc-text"></div> */}
     </form>
   );
-}
+};
 
 export default ForgotPassword;
