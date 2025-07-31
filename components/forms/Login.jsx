@@ -34,7 +34,7 @@ const Login = () => {
       <p className="mt-4 text-sm text-zinc-text ">
         Don't have an account?{" "}
         <a href="/registration" className="form-link-text">
-          Register
+          Register.
         </a>
       </p>
     </form>

@@ -25,7 +25,7 @@ const Registration = () => {
       <p className="mt-4 text-sm text-zinc-text">
         Already have an account?{" "}
         <a href="/login" className="form-link-text">
-          Login here
+          Login here.
         </a>
       </p>
 
@@ -36,9 +36,8 @@ const Registration = () => {
         </a>{" "}
         and{" "}
         <a href="/privacy" className="form-link-text">
-          Privacy Policy
+          Privacy Policy.
         </a>
-        .
       </p>
     </form>
   );
