@@ -61,6 +61,19 @@ const Tech = () => {
               A great experience whether you're on a phone, tablet, or desktop.
             </p>
           </div>
+          <div className="p-5 border-1 rounded-2xl h-80 w-60 bg-persian flex flex-col justify-center">
+            <Image
+              src="/mobile.svg"
+              width={38}
+              height={50}
+              alt="image"
+              className="mb-10"
+            />
+            <h3 className="font-bold mb-3">Responsive Design</h3>
+            <p className="font-light text-sm">
+              A great experience whether you're on a phone, tablet, or desktop.
+            </p>
+          </div>
         </div>
       </div>
     </div>
