@@ -52,7 +52,10 @@ const Roles = () => {
       </div>
 
       <div className="flex flex-col items-center gap-10">
-        <div id="btns" className="flex flex-wrap gap-3 ">
+        <div
+          id="btns"
+          className="flex flex-wrap gap-3 p-3 bg-persian rounded-3xl sm:rounded-full"
+        >
           {Object.keys(roleAct).map((role) => {
             return (
               <SButton

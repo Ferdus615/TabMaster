@@ -9,8 +9,7 @@ const Tech = () => {
 
         <div className="flex flex-col gap-10 justify-center items-center sm:flex-row flex-wrap">
           <div
-            className="p-5 border-1 border-sky rounded-2xl h-40 w-80 bg-persian flex flex-row 
-          items-center justify-center gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start"
+            className="card-v"
           >
             <Image
               src="/cloud.svg"
@@ -27,8 +26,7 @@ const Tech = () => {
             </div>
           </div>
           <div
-            className="p-5 border-1 border-sky rounded-2xl h-40 w-80 bg-persian flex flex-row 
-          items-center justify-center gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start"
+            className="card-v"
           >
             <Image
               src="/lock.svg"
@@ -45,8 +43,7 @@ const Tech = () => {
             </div>
           </div>
           <div
-            className="p-5 border-1 border-sky rounded-2xl h-40 w-80 bg-persian flex flex-row 
-          items-center justify-center gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start"
+            className="card-v"
           >
             <Image
               src="/rocket.svg"
@@ -64,8 +61,7 @@ const Tech = () => {
             </div>
           </div>
           <div
-            className="p-5 border-1 border-sky rounded-2xl h-40 w-80 bg-persian flex flex-row 
-          items-center justify-center gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start"
+            className="card-v"
           >
             <Image
               src="/mobile.svg"
