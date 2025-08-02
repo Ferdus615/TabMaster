@@ -5,7 +5,7 @@ const RButton = ({ id = "", text = "Click Me", onClick }) => {
     <button
       id={id}
       onClick={onClick}
-      className="bg-rose-700 px-2 py-1 rounded-full hover:bg-violet-700 text-sm font-light flex justify-center"
+      className="bg-rose px-2 py-1 rounded-full hover:bg-violet text-sm font-light flex justify-center"
     >
       {text}
     </button>

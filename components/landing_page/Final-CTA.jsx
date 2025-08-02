@@ -3,7 +3,7 @@ import ButtonR from "../button/ButtonR";
 
 const FinalCTA = () => {
   return (
-    <div className="div-bg flex flex-col mx-auto max-w-6xl gap-10 justify-center p-5 mb-20 sm:gap-20 sm:flex-row sm:items-center">
+    <div className="div-bg flex flex-col mx-auto max-w-6xl gap-10 justify-center p-5 mb-30 sm:gap-20 sm:flex-row sm:items-center">
       <video
         autoPlay
         loop

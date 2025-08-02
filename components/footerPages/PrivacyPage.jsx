@@ -2,7 +2,7 @@ import React from "react";
 
 function PrivacyPage() {
   return (
-    <div className="max-w-3xl mx-auto my-10">
+    <div className="max-w-3xl mx-auto my-10 ">
       <h1>Privacy Policy</h1>
       <p class="last-updated">Last Updated: July 26, 2025</p>
 

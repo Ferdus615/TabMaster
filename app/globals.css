@@ -26,7 +26,7 @@ body {
   height: 100%;
   scroll-behavior: smooth;
   background-color: #0a0a0a;
-  color: #e5e5e5;
+  color: #f5f5f5;
   font-family: var(--font-body);
 }
 /* ========================================================== */
@@ -39,10 +39,10 @@ body {
 */
 
 @theme {
-  --color-colorText: #e5e5e5;
+  --color-colorText: #f5f5f5;
   --color-persian: #10172a;
   --color-violet: oklch(60.6% 0.25 292.717);
-  --color-rose: oklch(64.5% 0.246 16.439);
+  --color-rose: oklch(64.5% 0.246 16.439); /*  */
   --color-sky: oklch(68.5% 0.169 237.323); /* sky-500 */
   --color-sky-hover: oklch(58.8% 0.158 241.966); /* sky-600 */
   --color-zinc-text: oklch(70.5% 0.015 286.067); /* zinc-400 */
@@ -66,18 +66,20 @@ body {
 }
 
 @utility link-text {
-  @apply hover:underline hover:text-sky-300;
+  @apply italic text-colorText transition duration-300 ease-in-out hover:text-sky relative pb-[3px] px-1 
+  after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-full after:bg-colorText after:-z-10 
+  hover:after:h-full hover:after:duration-300 hover:after:ease-in-out;
 }
 
 @utility form-link-text {
-  @apply text-colorText transition duration-300 ease-in-out hover:text-colorText relative pb-[3px] px-1 
-  after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-full after:bg-sky after:-z-10 
+  @apply text-colorText transition duration-300 ease-in-out hover:text-sky relative pb-[3px] px-1 
+  after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-full after:bg-colorText after:-z-10 
   hover:after:h-full hover:after:duration-300 hover:after:ease-in-out;
 }
 
 @layer component {
   .card {
-    @apply flex flex-col gap-5 p-4 border-1 border-sky rounded-lg;
+    @apply flex flex-col gap-5 p-4 bg-persian border-1 border-sky rounded-lg justify-between;
   }
   .card-v {
     @apply p-5 border-1 border-sky rounded-2xl h-40 w-80 bg-persian flex flex-row items-center justify-center 
@@ -101,7 +103,7 @@ body {
   }
 
   p {
-    @apply text-lg font-light mb-5;
+    @apply text-lg font-light;
   }
 
   ul {

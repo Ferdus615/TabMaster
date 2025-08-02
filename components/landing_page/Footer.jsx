@@ -6,98 +6,37 @@ import ButtonR from "../button/ButtonR";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-5">
-      <div className="grid grid-cols-4 grid-rows-3 mx-auto max-w-6xl">
-        <div className="row-1 col-span-5 flex flex-col items-start justify-between gap-10 mb-10 sm:flex-row sm:items-center">
-          <div>
-            <Image src="/logo-wide-w.svg" width={150} height={150} alt="Logo" />
+    <div className="w-6xl h-80 flex justify-center items-center">
+      <div className="relative overflow-hidden w-full h-full flex justify-end px-12 text-left items-start py-12">
+        <div className="flex flex-row space-x-12 sm:space-x-16  md:space-x-24 text-sm sm:text-lg md:text-xl">
+          <div className="flex flex-col">
+            <Link href="#">
+              <span className="link-text">Home</span>
+            </Link>
+            <Link href="#">
+              <span className="link-text">Docs</span>
+            </Link>
+            <Link href="#">
+              <span className="link-text">Comps</span>
+            </Link>
           </div>
-
-          <div className="flex gap-15 justify-end items-center">
-            <ButtonR text="Sign Up" link="/registration" />
-            <ButtonV text="Try TabMaster" link="" />
-          </div>
-        </div>
-
-        <div className="row-2 col-span-5 flex text-sm sm:justify-end sm:text-extralight">
-          <div className="flex gap-10">
-            <div className="flex flex-col gap-3 font-extralight">
-              <Link href="#" className="link-text">
-                About Us
-              </Link>
-              <Link href="/contact" className="link-text">
-                Contact
-              </Link>
-              <Link href="#" className="link-text">
-                FAQ's
-              </Link>
-            </div>
-            <div className="flex flex-col gap-3 font-extralight">
-              <Link href="#" className="link-text">
-                Features
-              </Link>
-              <Link href="#" className="link-text">
-                Pricing
-              </Link>
-            </div>
-            <div className="flex flex-col gap-3 font-extralight">
-              <Link href="/privacy" className="link-text">
-                Privacy Policy
-              </Link>
-              <Link href="/terms" className="link-text">
-                Terms & Condition
-              </Link>
-            </div>
+          <div className="flex flex-col">
+            <Link href="#">
+              <span className="link-text">Github</span>
+            </Link>
+            <Link href="#">
+              <span className="link-text">Linkedin</span>
+            </Link>
+            <Link href="#">
+              <span className="link-text">Instagram</span>
+            </Link>
           </div>
         </div>
-
-        <div className="row-3 col-span-5 flex flex-col mt-5 text-sm font-light border-t-1 pt-5 gap-2 items-center sm:p-0 sm:gap-0 sm:items-center sm:justify-between md:flex-row">
-          <p className="text-sm">
-            © {new Date().getFullYear()} TabMaster. All rights reserved.
-          </p>
-          <div className="flex gap-4 mt-2 md:mt-0">
-            <a
-              href="https://mail.google.com/mail/?view=cm&to=feriqra007@gmail.com&su=Hello%20Ferdus&body=I%20want%20to%20ask%20you...%20"
-              target="_blank"
-            >
-              <Image
-                src="/socials/mail.svg"
-                width="15"
-                height="15"
-                alt="gmail"
-              />
-            </a>
-            <a href="https://www.github.com/ferdus615" target="_blank">
-              <Image
-                src="/socials/github.svg"
-                width="15"
-                height="15"
-                alt="gmail"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/ferdus615" target="_blank">
-              <Image
-                src="/socials/linkedin.svg"
-                width="15"
-                height="15"
-                alt="gmail"
-              />
-            </a>
-            <a
-              href="https://www.facebook.com/NationalDebatefederationbd"
-              target="_blank"
-            >
-              <Image
-                src="/socials/facebook.svg"
-                width="15"
-                height="15"
-                alt="gmail"
-              />
-            </a>
-          </div>
-        </div>
+        <h2 className="absolute bottom-0 left-0 translate-y-1/3 sm:text-[192px] text-[75px] text-rose font-calendas">
+          TabMaster
+        </h2>
       </div>
-    </footer>
+    </div>
   );
 };
 

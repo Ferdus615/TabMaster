@@ -2,7 +2,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="px-6 mx-auto max-w-6xl my-20">
+    <div className="px-6 mx-auto max-w-6xl my-30">
       <h2 className="text-4xl font-semibold sm:text-center mb-5">
         Everything You Need to Run a Tournament – All the Features in One App
       </h2>

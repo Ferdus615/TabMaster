@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Tech = () => {
   return (
-    <div className="max-w-6xl mx-auto mb-20">
+    <div className="max-w-6xl mx-auto mb-30">
       <div className="flex flex-col justify-center items-center gap-10">
         <h1 className="fluid-h">Secure, Scalable, and Reliable</h1>
 
