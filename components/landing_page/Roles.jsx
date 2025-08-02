@@ -70,7 +70,7 @@ const Roles = () => {
           <div id="activity" className="card-grid gap-10">
             {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
               return (
-                <div key={key} className="card">
+                <div key={key} className="card bg-persian">
                   <h2 className="font-bold">{key}</h2>
                   <p className="font-light">{value}</p>
                 </div>
