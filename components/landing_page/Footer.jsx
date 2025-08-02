@@ -6,21 +6,21 @@ import ButtonR from "../button/ButtonR";
 
 const Footer = () => {
   return (
-    <div className="w-6xl h-80 flex justify-center items-center">
-      <div className="relative overflow-hidden w-full h-full flex justify-end px-12 text-left items-start py-12">
+    <div className="w-full h-80 px-[min(10vw,120px)] flex justify-center items-center">
+      <div className="relative overflow-hidden w-full h-full flex justify-end px-[min(10vw,12px)] text-left items-start py-12 border-t-1">
         <div className="flex flex-row space-x-12 sm:space-x-16  md:space-x-24 text-sm sm:text-lg md:text-xl">
-          <div className="flex flex-col">
+          <div className="flex flex-col text-sm">
             <Link href="#">
-              <span className="link-text">Home</span>
+              <span className="link-text">Contact</span>
             </Link>
-            <Link href="#">
-              <span className="link-text">Docs</span>
+            <Link href="/privacy">
+              <span className="link-text">Privacy policy</span>
             </Link>
-            <Link href="#">
-              <span className="link-text">Comps</span>
+            <Link href="/terms">
+              <span className="link-text">Terms & Services</span>
             </Link>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col text-sm">
             <Link href="#">
               <span className="link-text">Github</span>
             </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <h2 className="absolute bottom-0 left-0 translate-y-1/3 sm:text-[192px] text-[75px] text-rose font-calendas">
+        <h2 className="absolute bottom-0 left-0 translate-y-1/3 text-[min(15vw,192px)] text-rose">
           TabMaster
         </h2>
       </div>

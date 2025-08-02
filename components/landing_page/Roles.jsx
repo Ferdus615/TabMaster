@@ -74,8 +74,8 @@ const Roles = () => {
             {Object.entries(roleAct[selectedRole]).map(([key, value]) => {
               return (
                 <div key={key} className="card">
-                  <h2 className="font-bold">{key}</h2>
-                  <p className="font-light">{value}</p>
+                  <h3 className="font-bold text-lg">{key}</h3>
+                  <p className="font-light text-sm">{value}</p>
                 </div>
               );
             })}

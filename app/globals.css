@@ -99,7 +99,7 @@ body {
   }
 
   h2 {
-    @apply text-xl font-medium mb-2;
+    @apply text-xl font-medium mb-2 mt-5;
   }
 
   p {
