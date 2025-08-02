@@ -36,6 +36,46 @@ const Navigation = () => {
         <a href="#" className="hover:bg-blue-700 rounded-md p-2">
           Logout
         </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
+          Record
+        </a>
+        
       </nav>
     </div>
   );
