@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Registration = () => {
   return (
-    <div className="flex grow items-center justify-center p-6 md:p-8 lg:p-12">
+    <div className="form-div">
       <Registration_Form />
     </div>
   );

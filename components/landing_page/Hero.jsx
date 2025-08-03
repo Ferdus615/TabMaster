@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
         <ButtonR text="Experience Demo" link="/registration" />
-        <ButtonR text="Contact Us" link="/registration" />
+        <ButtonR text="Contact Us" link="/contact" />
       </div>
     </div>
   );

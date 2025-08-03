@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
-import Input from "../formComponents/InputField";
+import Input from "../formComponents/Input";
 import ButtonForm from "../formComponents/ButtonForm";
 import CheckBox from "../formComponents/CheckBox";
 
 const Login = () => {
   return (
-    <form action="post" className="grid grid-cols-1 w-full max-w-sm gap-8">
+    <form action="post" className="form">
       <Image
         src="/logo-wide-w.svg"
         alt="Registration"

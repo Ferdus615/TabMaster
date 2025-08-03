@@ -1,15 +1,15 @@
 import React from "react";
 
-const Input = (props) => {
+const Input = ({ type, id, label }) => {
   return (
     <div className="flex flex-col gap-3">
-      <label htmlFor={props.id} className="text-sm">
-        {props.label}
+      <label htmlFor={id} className="text-sm">
+        {label}
       </label>
       <input
-        type={props.type}
-        id={props.id}
-        name={props.id}
+        type={type}
+        id={id}
+        name={id}
         required
         className="border-1 border-zinc-border rounded-md p-2 bg-persian/40"
       />

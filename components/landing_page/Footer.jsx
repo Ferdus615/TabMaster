@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="relative overflow-hidden w-full h-full flex justify-end px-[min(10vw,12px)] text-left items-start py-12 border-t-1">
         <div className="flex flex-row space-x-12 sm:space-x-16  md:space-x-24 text-sm sm:text-lg md:text-xl">
           <div className="flex flex-col text-sm">
-            <Link href="#">
+            <Link href="/contact">
               <span className="link-text">Contact</span>
             </Link>
             <Link href="/privacy">

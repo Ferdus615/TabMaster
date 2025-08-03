@@ -4,7 +4,7 @@ import Navbar from "@/components/landing_page/Navbar";
 
 const Login = () => {
   return (
-    <div className="flex grow items-center justify-center p-6 md:p-8 lg:p-12">
+    <div className="form-div">
       <Login_Form />
     </div>
   );

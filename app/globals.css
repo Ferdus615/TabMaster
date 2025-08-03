@@ -48,6 +48,12 @@ body {
   --color-zinc-text: oklch(70.5% 0.015 286.067); /* zinc-400 */
   --color-zinc-border: oklch(37% 0.013 285.805); /* zinc-700 */
 }
+@utility form-div {
+  @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12
+}
+@utility form {
+  @apply grid grid-cols-1 w-full max-w-sm gap-8;
+}
 
 @utility fluid-text {
   @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5;

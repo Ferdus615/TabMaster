@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Input from "../formComponents/InputField";
+import Input from "../formComponents/Input";
 import ButtonForm from "../formComponents/ButtonForm";
 
 const ForgotPassword = () => {
   return (
-    <form action="post" className="grid grid-cols-1 w-full max-w-sm gap-8">
+    <form action="post" className="form">
       <Image
         src="/logo-wide-w.svg"
         alt="Forgot Password"

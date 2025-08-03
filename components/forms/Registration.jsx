@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Input from "../formComponents/InputField";
+import Input from "../formComponents/Input";
 import ButtonForm from "../formComponents/ButtonForm";
 import DropDownMenu from "../formComponents/DropDownMenu";
 import CheckBox from "../formComponents/CheckBox";
 
 const Registration = () => {
   return (
-    <form action="post" className="grid grid-cols-1 w-full max-w-sm gap-8">
+    <form action="post" className="form">
       <Image src="/logo-wide-w.svg" alt="Logo" width={150} height={150} />
       <h1 className="text-2xl/8 font-medium">Register here</h1>
       <Input label="Email" type="email" id="email" />
