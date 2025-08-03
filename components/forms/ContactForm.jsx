@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../formComponents/Input";
+import ButtonForm from "../formComponents/ButtonForm";
 
 const ContactForm = () => {
   return (
@@ -10,6 +11,7 @@ const ContactForm = () => {
         <Input type="email" id="email" label="Email" />
         <Input type="tel" id="phone" label="Phone" />
         <Input type="textarea" id="message" label="Message" />
+        <ButtonForm text="Send Message" />
       </form>
     </div>
   );
