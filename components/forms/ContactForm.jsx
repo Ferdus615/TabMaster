@@ -8,8 +8,8 @@ const ContactForm = () => {
   return (
     <div className="flex grow items-center justify-center p-6 md:p-8 lg:p-12">
       <form
-        action=""
-        method=""
+        action="https://formsubmit.co/fa3cf87a376a9abdbeb3e34a8c9442fd"
+        method="POST"
         className="grid grid-cols-1 w-full max-w-sm gap-8 sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl"
       >
         <div className="grid gap-8">
