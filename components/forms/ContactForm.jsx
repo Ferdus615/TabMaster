@@ -12,6 +12,11 @@ const ContactForm = () => {
         method="POST"
         className="grid grid-cols-1 w-full max-w-sm gap-8 sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl"
       >
+        <input
+          type="hidden"
+          name="_next"
+          value="https://tabmaster.netlify.app/thanks"
+        ></input>
         <div className="grid gap-8">
           <Image
             src="/logo-wide-w.svg"
