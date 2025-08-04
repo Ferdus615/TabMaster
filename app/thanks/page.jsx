@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ThankYouPage() {
+const ThankYouPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-md">
@@ -19,9 +19,9 @@ export default function ThankYouPage() {
                   <path
                     d="M4 12L9 17L20 6"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </div>
@@ -62,9 +62,9 @@ export default function ThankYouPage() {
                   <path
                     d="M20 12L5 12M10 6L5 12L10 18"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 Go Back
@@ -83,9 +83,9 @@ export default function ThankYouPage() {
                   <path
                     d="M4 12L12 4L20 12V20H4V12Z"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strok-linecap="round"
+                    strok-linejoin="round"
                   />
                 </svg>
                 Home
@@ -102,11 +102,13 @@ export default function ThankYouPage() {
               href="https://formsubmit.co/"
               className="text-zinc-text hover:text-zinc-border underline underline-offset-4"
             >
-              FormSubmit
+              FormSubmit.
             </a>
           </p>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default ThankYouPage;
