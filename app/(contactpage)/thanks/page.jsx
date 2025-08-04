@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 const ThankYouPage = () => {
   return (
@@ -48,7 +48,7 @@ const ThankYouPage = () => {
 
             {/* Action buttons */}
             <div className="flex flex-col sm:flex-row gap-3 pt-4">
-              <a
+              <Link
                 href="/contact"
                 className="flex-1 flex items-center justify-center text-sm p-2 border-1 rounded-sm gap-2 bg-transparent hover:bg-slate-700"
               >
@@ -68,8 +68,8 @@ const ThankYouPage = () => {
                   />
                 </svg>
                 Go Back
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                 className="flex-1 flex items-center justify-center text-sm p-2 border-1 rounded-sm gap-2 bg-slate-700 hover:bg-transparent hover:border-1"
               >
@@ -89,7 +89,7 @@ const ThankYouPage = () => {
                   />
                 </svg>
                 Home
-              </a>
+              </Link>
             </div>
           </div>
         </div>

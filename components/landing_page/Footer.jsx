@@ -20,18 +20,28 @@ const Footer = () => {
               <span className="link-text">Terms & Services</span>
             </Link>
           </div>
+
           <div className="flex flex-col text-sm">
-            <Link href="#" className="mb-1">
+            <Link
+              href="https://www.github.com/ferdus615"
+              target="_blank"
+              className="mb-1"
+            >
               <span className="link-text">Github</span>
             </Link>
-            <Link href="#" className="mb-1">
+            <Link
+              href="https://www.linkedin.com/in/ferdus615"
+              target="_blank"
+              className="mb-1"
+            >
               <span className="link-text">Linkedin</span>
             </Link>
-            <Link href="#" className="mb-1">
+            <Link href="#" target="_blank" className="mb-1">
               <span className="link-text">Instagram</span>
             </Link>
           </div>
         </div>
+
         <h2 className="absolute bottom-0 left-0 translate-y-1/3 text-[min(15vw,192px)] text-rose">
           TabMaster
         </h2>
