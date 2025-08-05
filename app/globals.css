@@ -120,4 +120,16 @@ body {
   li {
     @apply text-lg italic font-light list-disc;
   }
+
+  table {
+    @apply border-2 text-center;
+  }
+
+  th {
+    @apply border-2 font-bold p-5;
+  }
+
+  td {
+    @apply border-2 font-light p-5;
+  }
 }
