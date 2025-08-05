@@ -47,7 +47,11 @@ body {
   --color-sky-hover: oklch(58.8% 0.158 241.966); /* sky-600 */
   --color-zinc-text: oklch(70.5% 0.015 286.067); /* zinc-400 */
   --color-zinc-border: oklch(37% 0.013 285.805); /* zinc-700 */
+  --color-odd: oklch(37.2% 0.044 257.287); /* slate-700 */
+  --color-even: oklch(27.9% 0.041 260.031); /* slate-800 */
+  --color-theader: oklch(12.9% 0.042 264.695); /* slate-950 */
 }
+
 @utility form-div {
   @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12;
 }
@@ -122,14 +126,14 @@ body {
   }
 
   table {
-    @apply border-2 text-center;
+    @apply border-2 border-zinc-border text-center;
   }
 
   th {
-    @apply border-2 font-bold p-5;
+    @apply border p-3 font-bold;
   }
 
   td {
-    @apply border-2 font-light p-5;
+    @apply border-2 p-5 font-light;
   }
 }
