@@ -2,9 +2,9 @@ import React from "react";
 
 function PrivacyPage() {
   return (
-    <div className="max-w-3xl mx-auto my-10 ">
+    <div className="max-w-3xl mx-auto my-20">
       <h1>Privacy Policy</h1>
-      <p class="last-updated">Last Updated: July 26, 2025</p>
+      <p className="last-updated">Last Updated: July 26, 2025</p>
 
       <p>
         Your privacy is of utmost importance to TabMaster. This Privacy Policy

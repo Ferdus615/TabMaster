@@ -6,7 +6,7 @@ import TextArea from "../formComponents/TextArea";
 
 const ContactForm = () => {
   return (
-    <div className="flex grow items-center justify-center p-6 md:p-8 lg:p-12">
+    <div className="div-space flex grow items-center justify-center p-6 md:p-8 lg:p-12">
       <form
         action="https://formsubmit.co/fa3cf87a376a9abdbeb3e34a8c9442fd"
         method="POST"
@@ -19,7 +19,7 @@ const ContactForm = () => {
           name="_next"
           value="https://tabmaster.netlify.app/thanks"
         />
-        
+
         <input type="hidden" name="_captcha" value="false" />
 
         <div className="grid gap-8">

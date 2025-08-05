@@ -52,12 +52,16 @@ body {
   --color-theader: oklch(12.9% 0.042 264.695); /* slate-950 */
 }
 
+@utility div-space {
+  @apply px-6 mx-auto max-w-6xl my-30;
+}
+
 @utility form-div {
   @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12;
 }
 
 @utility form {
-  @apply grid grid-cols-1 w-full max-w-sm gap-8;
+  @apply grid grid-cols-1 w-full max-w-sm gap-8 my-10;
 }
 
 @utility fluid-text {
@@ -130,10 +134,10 @@ body {
   }
 
   th {
-    @apply border p-3 font-bold;
+    @apply border p-5 font-bold;
   }
 
   td {
-    @apply border-2 p-5 font-light;
+    @apply border p-5 font-light;
   }
 }

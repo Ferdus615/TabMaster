@@ -2,7 +2,7 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <div className="max-w-3xl mx-auto my-10">
+    <div className="max-w-3xl mx-auto my-20">
       <h1>Terms & Conditions</h1>
       <p>
         <strong>Last Updated:</strong> <em>July 26, 2025</em>

@@ -1,6 +1,7 @@
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import DotGrid from "@/components/DotGrid";
+import Navbar from "@/components/landing_page/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} antialiased`}>
       <body className="relative min-h-screen">
+        <Navbar />
         <div className="fixed inset-0 z-0">
           <DotGrid
             dotSize={3}
