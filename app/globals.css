@@ -101,7 +101,7 @@ body {
     gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start;
   }
   .div-bg {
-    @apply bg-persian/40 p-5 rounded-2xl shadow-xl;
+    @apply bg-persian/40 p-5 rounded-2xl;
   }
   .card-grid {
     @apply grid md:grid-cols-2 lg:grid-cols-3 gap-10;
