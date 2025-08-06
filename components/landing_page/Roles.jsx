@@ -75,7 +75,7 @@ const Roles = () => {
               return (
                 <div key={key} className="card">
                   <h3 className="font-bold text-lg">{key}</h3>
-                  <p className="font-light text-sm">{value}</p>
+                  <p className="font-extralight text-sm">{value}</p>
                 </div>
               );
             })}

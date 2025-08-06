@@ -25,6 +25,7 @@ body {
   padding: 0;
   height: 100%;
   scroll-behavior: smooth;
+  /* background-color: #0a0a0a; */
   background-color: #0a0a0a;
   color: #f5f5f5;
   font-family: var(--font-body);
@@ -94,10 +95,10 @@ body {
 
 @layer component {
   .card {
-    @apply flex flex-col gap-5 p-4 bg-persian border-1 border-sky rounded-lg justify-between;
+    @apply flex flex-col gap-5 p-4 bg-persian/60 border-1 border-sky rounded-lg justify-between;
   }
   .card-v {
-    @apply p-5 border-1 border-sky rounded-2xl h-40 w-80 bg-persian flex flex-row items-center justify-center 
+    @apply p-5 border-1 border-sky rounded-2xl h-60 w-80 bg-persian/40 flex flex-row items-center justify-center 
     gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start;
   }
   .div-bg {
