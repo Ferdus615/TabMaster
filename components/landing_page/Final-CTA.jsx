@@ -28,8 +28,8 @@ const FinalCTA = () => {
         </p>
 
         <div className="flex gap-5 sm:flex-row items-center justify-between w-60 mt-5">
-          <ButtonR text="Try Demo" link="#" />
-          <ButtonR text="Register" link="#" />
+          <ButtonR text="Try Demo" link="/demo" />
+          <ButtonR text="Register" link="/registration" />
         </div>
       </div>
     </div>
