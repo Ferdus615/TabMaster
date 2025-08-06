@@ -14,31 +14,39 @@ const Tech = () => {
               pic: "/cloud.svg",
               title: "Cloud Based",
               desc: "Access from anywhere, on any device with an internet connection.",
+              height: 85,
+              width: 85,
             },
             {
               key: "002",
               pic: "/lock.svg",
               title: "Data Security",
               desc: "Encryption and regular backups to keep your tournament data safe",
+              height: 50,
+              width: 50,
             },
             {
               key: "003",
               pic: "/rocket.svg",
               title: "Highly Scalable",
               desc: "Built to handle tournaments of any size, from local to international.",
+              height: 65,
+              width: 65,
             },
             {
               key: "004",
               pic: "/mobile.svg",
               title: "Responsive Design",
               desc: "A great experience whether you're on a phone, tablet, or desktop",
+              height: 38,
+              width: 38,
             },
           ].map((info) => (
             <div key={info.key} className="card-v">
               <Image
                 src={info.pic}
-                width={85}
-                height={85}
+                width={info.width}
+                height={info.height}
                 alt="image"
                 className="sm:mb-5"
               />

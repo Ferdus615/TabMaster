@@ -4,7 +4,7 @@ const TeamPage = () => {
   return (
     <div className="flex justify-center items-center div-space">
       <div className="flex flex-col gap-6">
-        <h2>Registared Team</h2>
+        <h2 className="font-light">Registared Teams</h2>
 
         <table className="min-w-full border border-gray-300 text-center">
           <thead className="bg-theader">

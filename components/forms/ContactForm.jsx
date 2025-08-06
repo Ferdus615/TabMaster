@@ -6,7 +6,7 @@ import TextArea from "../formComponents/TextArea";
 
 const ContactForm = () => {
   return (
-    <div className="form-div flex items-center justify-center p-6 md:p-8 lg:p-12">
+    <div className="form-div">
       <form
         action="https://formsubmit.co/fa3cf87a376a9abdbeb3e34a8c9442fd"
         method="POST"

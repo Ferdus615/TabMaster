@@ -54,11 +54,11 @@ body {
 }
 
 @utility div-space {
-  @apply px-6 mx-auto max-w-6xl my-30;
+  @apply px-6 mx-auto max-w-6xl my-15;
 }
 
 @utility form-div {
-  @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12;
+  @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12 my-10;
 }
 
 @utility form {
@@ -132,6 +132,10 @@ body {
 
   table {
     @apply border-2 border-zinc-border text-center;
+  }
+
+  tbody {
+    @apply hover:cursor-pointer;
   }
 
   th {
