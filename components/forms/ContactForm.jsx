@@ -30,7 +30,18 @@ const ContactForm = () => {
             height={150}
           />
 
-          <h1 className="text-2xl/8 font-medium">Contact Us</h1>
+          <h1 className="text-2xl/8 font-medium mb-0">Contact Us</h1>
+
+          <span>
+            <p className="text-rose font-semibold text-md">
+              We’d Love to Hear from You
+            </p>
+
+            <p className="text-zinc-text font-light text-m">
+              Got a question or an tournament idea? Tell us what’s on your mind
+              and we’ll get back to you shortly.
+            </p>
+          </span>
         </div>
         <div className="grid grid-cols-1 w-full gap-8 sm:grid-cols-2">
           <Input type="text" id="firstname" label="First Name" />
