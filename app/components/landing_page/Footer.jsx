@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ButtonV from "../button/ButtonV";
-import ButtonR from "../button/ButtonR";
+import ButtonV from "../../../components/button/ButtonV";
+import ButtonR from "../../../components/button/ButtonR";
 
 const Footer = () => {
   return (

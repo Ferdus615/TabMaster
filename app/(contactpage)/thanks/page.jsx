@@ -1,4 +1,4 @@
-import ThankYouPage from "@/pages/ThanksPage";
+import ThankYouPage from "@/app/components/ThanksPage";
 import React from "react";
 
 const page = () => {

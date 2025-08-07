@@ -1,6 +1,5 @@
 import React from "react";
-import Login_Form from "@/components/forms/Login";
-import Navbar from "@/components/landing_page/Navbar";
+import Login_Form from "@/app/components/forms/Login";
 
 const Login = () => {
   return (

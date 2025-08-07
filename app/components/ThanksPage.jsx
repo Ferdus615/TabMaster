@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ThankYouPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-4 mt-5">
       <div className="w-full max-w-md">
         <div className="border-0 rounded-md shadow-xl bg-persian backdrop-blur-sm">
           <div className="p-8 text-center space-y-6">

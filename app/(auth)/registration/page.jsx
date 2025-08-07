@@ -1,7 +1,6 @@
 import React from "react";
-import Registration_Form from "@/components/forms/Registration";
-import Navbar from "@/components/landing_page/Navbar";
-import Image from "next/image";
+import Registration_Form from "@/app/components/forms/Registration";
+
 
 const Registration = () => {
   return (

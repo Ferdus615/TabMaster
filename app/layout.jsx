@@ -1,7 +1,7 @@
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import DotGrid from "@/components/DotGrid";
-import Navbar from "@/components/landing_page/Navbar";
+import Navbar from "@/app/components/landing_page/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
