@@ -11,7 +11,7 @@ const Tech = () => {
           {[
             {
               key: "001",
-              pic: "/cloud.svg",
+              pic: "/tech-pic/cloud.svg",
               title: "Cloud Based",
               desc: "Access from anywhere, on any device with an internet connection.",
               height: 85,
@@ -19,7 +19,7 @@ const Tech = () => {
             },
             {
               key: "002",
-              pic: "/lock.svg",
+              pic: "/tech-pic/lock.svg",
               title: "Data Security",
               desc: "Encryption and regular backups to keep your tournament data safe",
               height: 50,
@@ -27,7 +27,7 @@ const Tech = () => {
             },
             {
               key: "003",
-              pic: "/rocket.svg",
+              pic: "/tech-pic/rocket.svg",
               title: "Highly Scalable",
               desc: "Built to handle tournaments of any size, from local to international.",
               height: 65,
@@ -35,7 +35,7 @@ const Tech = () => {
             },
             {
               key: "004",
-              pic: "/mobile.svg",
+              pic: "/tech-pic/mobile.svg",
               title: "Responsive Design",
               desc: "A great experience whether you're on a phone, tablet, or desktop",
               height: 38,

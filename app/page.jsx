@@ -1,20 +1,12 @@
 import React from "react";
-import Hero from "@/components/landing_page/Hero";
-import Feature from "@/components/landing_page/Feature";
-import FinalCTA from "@/components/landing_page/Final-CTA";
-import Roles from "@/components/landing_page/Roles";
-import Footer from "@/components/landing_page/Footer";
-import Tech from "@/components/landing_page/Tech";
+import LandingPage from "@/pages/LandingPage";
 
-export default function Home() {
+const page = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <Hero />
-      <Feature />
-      <Roles />
-      <FinalCTA />
-      <Tech />
-      <Footer />
+    <div>
+      <LandingPage />
     </div>
   );
-}
+};
+
+export default page;
