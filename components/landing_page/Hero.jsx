@@ -1,5 +1,6 @@
 import React from "react";
-import ButtonR from "../../../components/button/ButtonR";
+import ButtonR from "../button/ButtonR";
+import Link from "next/link";
 
 const Hero = () => {
   return (

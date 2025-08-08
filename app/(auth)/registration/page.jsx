@@ -1,6 +1,5 @@
 import React from "react";
-import Registration_Form from "@/app/components/forms/Registration";
-
+import Registration_Form from "@/components/forms/Registration";
 
 const Registration = () => {
   return (

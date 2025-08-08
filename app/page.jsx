@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "@/app/components/landing_page/Hero";
-import Feature from "@/app/components/landing_page/Feature";
-import FinalCTA from "@/app/components/landing_page/Final-CTA";
-import Roles from "@/app/components/landing_page/Roles";
-import Footer from "@/app/components/landing_page/Footer";
-import Tech from "@/app/components/landing_page/Tech";
+import Hero from "@/components/landing_page/Hero";
+import Feature from "@/components/landing_page/Feature";
+import FinalCTA from "@/components/landing_page/Final-CTA";
+import Roles from "@/components/landing_page/Roles";
+import Footer from "@/components/landing_page/Footer";
+import Tech from "@/components/landing_page/Tech";
 
 export default function Home() {
   return (

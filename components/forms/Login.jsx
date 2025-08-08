@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import Input from "../../../components/formComponents/Input";
-import ButtonForm from "../../../components/formComponents/ButtonForm";
-import CheckBox from "../../../components/formComponents/CheckBox";
+import Input from "../formComponents/Input";
+import ButtonForm from "../formComponents/ButtonForm";
+import CheckBox from "../formComponents/CheckBox";
 
 const Login = () => {
   return (
