@@ -131,7 +131,11 @@ body {
   }
 
   table {
-    @apply border-2 border-zinc-border text-center;
+    @apply border-2 text-center;
+  }
+
+  thead {
+    @apply bg-rose/40;
   }
 
   tbody {

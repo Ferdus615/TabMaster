@@ -34,8 +34,7 @@ const TeamPage = () => {
               12,
             ],
           ].map(([team, speaker, r1, r2, r3, r4, r5, total], index) => (
-            <tr key={index} 
-            className="">
+            <tr key={index} className="odd:bg-odd/40 even:bg-even/40">
               <td>{team}</td>
               <td>{speaker}</td>
               <td>{r1}</td>
