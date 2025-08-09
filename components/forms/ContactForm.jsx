@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Input from "../formComponents/Input";
-import ButtonForm from "../formComponents/ButtonForm";
-import TextArea from "../formComponents/TextArea";
+import Input from "../FormComponents/Input";
+import ButtonForm from "../FormComponents/ButtonForm";
+import TextArea from "../FormComponents/TextArea";
 
 const ContactForm = () => {
   return (

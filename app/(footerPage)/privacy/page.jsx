@@ -1,4 +1,4 @@
-import PrivacyPage from "@/components/footerPages/PrivacyPage";
+import PrivacyPage from "@/components/FooterPages/PrivacyPage";
 import React from "react";
 
 function page() {

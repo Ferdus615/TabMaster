@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonR from "../button/ButtonR";
+import ButtonR from "../Button/ButtonR";
 import Link from "next/link";
 
 const Hero = () => {

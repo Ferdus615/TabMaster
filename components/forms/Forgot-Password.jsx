@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Input from "../formComponents/Input";
-import ButtonForm from "../formComponents/ButtonForm";
+import Input from "../FormComponents/Input";
+import ButtonForm from "../FormComponents/ButtonForm";
 
 const ForgotPassword = () => {
   return (

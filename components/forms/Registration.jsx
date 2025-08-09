@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Input from "../formComponents/Input";
-import ButtonForm from "../formComponents/ButtonForm";
-import DropDownMenu from "../formComponents/DropDownMenu";
-import CheckBox from "../formComponents/CheckBox";
+import Input from "../FormComponents/Input";
+import ButtonForm from "../FormComponents/ButtonForm";
+import DropDownMenu from "../FormComponents/DropDownMenu";
+import CheckBox from "../FormComponents/CheckBox";
 
 const Registration = () => {
   return (

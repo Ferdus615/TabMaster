@@ -1,9 +1,10 @@
 import React from "react";
-import TeamPage from "@/components/demoComponents/TeamPage";
-import Navigation from "@/components/demoComponents/Navigation";
+import TeamPage from "@/components/DemoComponents/TeamTable";
+import Navigation from "@/components/DemoComponents/Sidebar";
+import DemoFooter from "@/components/DemoComponents/DemoFooter";
 
 const page = () => {
-  return <TeamPage />;
+  return <DemoFooter />;
 };
 
 export default page;
