@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,23 +24,7 @@ const Navigation = () => {
           onClick={toggleMenu}
         />
       </div>
-      <nav className="flex flex-col gap-2 mt-5">
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Dashboard
-        </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Settings
-        </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Profile
-        </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Logout
-        </a>
-        <a href="#" className="hover:bg-blue-700 rounded-md p-2">
-          Record
-        </a>
-      </nav>
+      {[{ Dashboard }, { Teams }, { Adjudicator }, { Organizers }]}
     </div>
   );
 };
