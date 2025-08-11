@@ -14,8 +14,8 @@ const SButton = ({
       className={`${
         selected
           ? "bg-sky text-persian hover:border-persian"
-          : "bg-persian hover:bg-persian border-zinc-border"
-      } px-2 py-1 rounded-full border-2 text-sm font-regular flex justify-center transition 
+          : "bg-transparent hover:bg-slate-700 border-white"
+      } px-3 py-1 rounded-md border-1 text-sm font-regular flex justify-center transition 
       hover:cursor-pointer ${className}`}
     >
       {text}
