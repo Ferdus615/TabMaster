@@ -4,7 +4,7 @@ import Navigation from "@/components/DemoComponents/Sidebar";
 import DemoFooter from "@/components/DemoComponents/DemoFooter";
 
 const page = () => {
-  return <DemoFooter />;
+  return <Navigation />;
 };
 
 export default page;
