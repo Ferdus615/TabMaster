@@ -1,30 +1,29 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const ThankYouPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 mt-5">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="border-0 rounded-md shadow-xl bg-persian backdrop-blur-sm">
-          <div className="p-8 text-center space-y-6">
+          <div className="p-8 space-y-6">
             {/* Success Icon */}
-            <div className="flex justify-center">
-              <div className="w-16 h-16 bg-rose rounded-full flex items-center justify-center">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4 12L9 17L20 6"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
+            <div className="w-16 h-16 bg-rose rounded-full flex items-center justify-center">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 12L9 17L20 6"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </div>
 
             {/* Main Message */}
@@ -33,8 +32,9 @@ const ThankYouPage = () => {
                 Thank You!
               </h1>
               <p className="text-zinc-text text-lg leading-relaxed">
-                Your submission has been received successfully. We appreciate
-                you taking the time to reach out to us.
+                Your message has been received successfully by
+                <span className="font-bold text-sky"> TabMaster</span>. We
+                appreciate you taking the time to reach out to us.
               </p>
             </div>
 

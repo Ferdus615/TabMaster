@@ -23,18 +23,16 @@ const Navigation = () => {
   ];
 
   return (
-    <aside className="w-64 bg-persian text-white h-screen p-4 mt-10 rounded-md">
-      <h2 className="text-zinc-text">Hello, Admin</h2>
-      <ul className="space-y-2 mt-5">
-        {links.map((link) => (
-          <li
-            key={link.key}
-            className="text-sm font-extralight block hover:bg-sky cursor-pointer p-2 rounded"
-          >
-            <Link href={link.link}>{link.text}</Link>
-          </li>
-        ))}
-      </ul>
+    <aside className="flex flex-col items-start w-54 bg-persian text-white h-screen p-4 my-10 rounded-md">
+      <h2 className="text-zinc-text mb-5">Hello, Admin</h2>
+      {links.map((link) => (
+        <div
+          key={link.key}
+          className="text-sm font-extralight hover:bg-sky cursor-pointer p-2 rounded w-full"
+        >
+          <Link href={link.link}>{link.text}</Link>
+        </div>
+      ))}
     </aside>
   );
 };

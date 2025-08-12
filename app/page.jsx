@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/LandingPage/Hero";
 import Feature from "@/components/LandingPage/Feature";
 import FinalCTA from "@/components/LandingPage/Final-CTA";
@@ -9,6 +10,7 @@ import Tech from "@/components/LandingPage/Tech";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
+      <Navbar />
       <Hero />
       <Feature />
       <Roles />

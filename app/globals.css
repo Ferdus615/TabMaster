@@ -54,11 +54,11 @@ body {
 }
 
 @utility div-space {
-  @apply px-6 mx-auto max-w-6xl my-15;
+  @apply px-6 mx-auto max-w-6xl;
 }
 
 @utility form-div {
-  @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12 mt-10;
+  @apply flex grow items-center justify-center p-6 md:p-8 lg:p-12;
 }
 
 @utility form {
