@@ -1,15 +1,26 @@
 import React from "react";
 
-const RButton = ({ id = "", text = "Click Me", onClick }) => {
+const SButton = ({
+  id = "",
+  text = "Click Me",
+  onClick,
+  className,
+  selected,
+}) => {
   return (
     <button
       id={id}
       onClick={onClick}
-      className="bg-rose px-2 py-1 rounded-full hover:bg-violet text-sm font-light flex justify-center"
+      className={`${
+        selected
+          ? "bg-sky text-persian hover:border-persian"
+          : "bg-transparent hover:bg-slate-700 border-white"
+      } px-3 py-1 rounded-md border-1 text-sm font-regular flex justify-center transition 
+      hover:cursor-pointer ${className}`}
     >
       {text}
     </button>
   );
 };
 
-export default RButton;
+export default SButton;
