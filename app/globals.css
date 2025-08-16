@@ -69,12 +69,16 @@ body {
   @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5;
 }
 
+@utility fluid-text-2 {
+  @apply text-[min(10vw,80px)] leading-[min(1,1.5)] font-medium p-5;
+}
+
 @utility fluid-h {
   @apply text-[min(6vw,40px)] leading-[min(1,1.5)] font-bold;
 }
 
 @utility fluid-p {
-  @apply text-[min(6vw,36px)] leading-[min(1,1.5)] text-zinc-text/70 p-5;
+  @apply text-[min(6vw,36px)] leading-[min(1,1.5)] font-light text-zinc-text/70 p-5;
 }
 
 @utility gradient-text {
@@ -106,6 +110,9 @@ body {
   }
   .card-grid {
     @apply grid md:grid-cols-2 lg:grid-cols-3 gap-10;
+  }
+  .name_style {
+    @apply text-[min(15vw,320px)] font-normal tracking-tighter;
   }
 }
 
