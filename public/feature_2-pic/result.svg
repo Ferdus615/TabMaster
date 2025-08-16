@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5e5e5;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="injected-svg">
+    <g>
+      <path class="cls-1" d="M3,0H0v28.5c0,.82.68,1.5,1.5,1.5h28.5v-3H3V0Z"/>
+      <path class="cls-1" d="M22.5,15h3v9h-3v-9ZM15,3h3v21h-3V3ZM7.5,10.5h3v13.5h-3v-13.5Z"/>
+    </g>
+  </g>
+</svg>

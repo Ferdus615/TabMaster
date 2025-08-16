@@ -4,7 +4,7 @@ import ButtonR from "../Button/ButtonCTA";
 const Hero_2 = () => {
   return (
     <div className="flex flex-col items-center justify-center mx-auto max-w-6xl lg:min-h-screen">
-      <h1 className="fluid-text-2 gradient-universe sm:text-center">
+      <h1 className="fluid-text-2 mt-20 gradient-universe sm:text-center">
         The Ultimate Debate Tournament Management Platform
       </h1>
       <p className="fluid-p sm:text-center">
