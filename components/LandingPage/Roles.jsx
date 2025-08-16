@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SButton from "../Button/SButton";
+import SButton from "../Button/MainButton";
 
 const Roles = () => {
   const roleAct = {

@@ -40,10 +40,11 @@ body {
 */
 
 @theme {
+  --color-purple: #5606ff;
   --color-colorText: #f5f5f5;
   --color-persian: #10172a;
-  --color-violet: oklch(60.6% 0.25 292.717);
-  --color-rose: oklch(64.5% 0.246 16.439); /*  */
+  --color-violet: oklch(60.6% 0.25 292.717); /* violet-500 */
+  --color-rose: oklch(64.5% 0.246 16.439); /* rose-500 */
   --color-sky: oklch(68.5% 0.169 237.323); /* sky-500 */
   --color-sky-hover: oklch(58.8% 0.158 241.966); /* sky-600 */
   --color-zinc-text: oklch(70.5% 0.015 286.067); /* zinc-400 */
@@ -65,6 +66,8 @@ body {
   @apply grid grid-cols-1 w-full max-w-sm gap-8;
 }
 
+/* Fluid text */
+
 @utility fluid-text {
   @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5;
 }
@@ -81,9 +84,21 @@ body {
   @apply text-[min(6vw,36px)] leading-[min(1,1.5)] font-light text-zinc-text/70 p-5;
 }
 
+/* Gradients */
+
 @utility gradient-universe {
   @apply text-transparent bg-clip-text bg-linear-to-tr from-[#5606FF] to-rose;
 }
+
+@utility bg-gradient {
+  @apply bg-linear-to-r/increasing from-indigo-500 to-teal-400;
+}
+
+@utility gradient-ipp {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
+
+/* link text */
 
 @utility link-text {
   @apply italic font-light text-colorText transition duration-300 ease-in-out hover:text-sky relative pb-[3px] px-1 
@@ -99,11 +114,12 @@ body {
 
 @layer component {
   .card {
-    @apply flex flex-col gap-5 p-4 bg-persian/60 border-1 border-sky rounded-lg justify-between;
+    @apply flex flex-col gap-5 p-4 bg-persian/60 border-1 border-sky rounded-lg justify-between
+    hover:bg-persian/40 cursor-pointer;
   }
   .card-v {
-    @apply p-5 border-1 border-sky rounded-2xl h-60 w-80 bg-persian/40 flex flex-row items-center justify-center 
-    gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start;
+    @apply p-5 border-1 border-sky rounded-2xl h-60 w-80 bg-persian/60 flex flex-row items-center justify-center 
+    gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer;
   }
   .div-bg {
     @apply bg-persian/40 p-5 rounded-2xl;
@@ -113,6 +129,11 @@ body {
   }
   .name_style {
     @apply text-[min(15vw,320px)] font-normal tracking-tighter z-10 text-transparent bg-clip-text text-center;
+  }
+
+  .CTAbtn {
+    @apply rounded-full font-extralight border-1 gradient-ipp px-4 py-2 text-sm
+     hover:bg-persian hover:border-sky;
   }
 }
 

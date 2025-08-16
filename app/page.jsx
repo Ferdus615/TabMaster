@@ -8,6 +8,7 @@ import Footer from "@/components/LandingPage/Footer";
 import Tech from "@/components/LandingPage/Tech";
 import Name from "@/components/LandingPage/Name";
 import Hero_2 from "@/components/LandingPage/Hero_2";
+import Feature_2 from "@/components/LandingPage/Feature_2";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <Hero /> */}
       <Hero_2 />
       <Name />
+      <Feature_2 />
       <Feature />
       <Roles />
       <FinalCTA />

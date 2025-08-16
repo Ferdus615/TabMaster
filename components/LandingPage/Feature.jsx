@@ -16,6 +16,10 @@ const Feature = () => {
             desc: "Auto-draws with flexible scoring, tie-breaks, and judging configs.",
           },
           {
+            title: "Debater Profiles - A Lifelong Journey",
+            desc: "Track personal progress, stats, and tournament history in one unified profile.",
+          },
+          {
             title: "Role-Based User Access",
             desc: "Admins, DCAs, Tab Staff, Judges, Debaters – everyone gets personalized access and tools.",
           },
@@ -26,10 +30,6 @@ const Feature = () => {
           {
             title: "Cloud-Powered Efficiency",
             desc: "Real-time data access and collaboration from anywhere.",
-          },
-          {
-            title: "Debater Profiles - A Lifelong Journey",
-            desc: "Track personal progress, stats, and tournament history in one unified profile.",
           },
           {
             title: "Affordable Excellence",
