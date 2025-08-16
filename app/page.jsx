@@ -13,10 +13,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
       <Navbar />
-      <Name />
-      <Hero_2 />
       {/* <Hero /> */}
-
+      <Hero_2 />
+      <Name />
       <Feature />
       <Roles />
       <FinalCTA />

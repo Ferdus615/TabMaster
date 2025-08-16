@@ -4,13 +4,12 @@ import ButtonR from "../Button/ButtonR";
 const Hero_2 = () => {
   return (
     <div className="flex flex-col items-center justify-center mx-auto max-w-6xl lg:min-h-screen">
-      <h1 className="fluid-text-2 gradient-text sm:text-center">
+      <h1 className="fluid-text-2 gradient-universe sm:text-center">
         The Ultimate Debate Tournament Management Platform
       </h1>
       <p className="fluid-p sm:text-center">
-        Seamlessly manage your debate tournaments from
-        registration to final results with a powerful, intuitive, and real-time
-        tabulation system.
+        Seamlessly manage your debate tournaments from registration to final
+        results with a powerful, intuitive, and real-time tabulation system.
       </p>
 
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
