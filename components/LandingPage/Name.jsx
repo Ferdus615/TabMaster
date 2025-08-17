@@ -3,7 +3,7 @@ import React from "react";
 
 const Name = () => {
   return (
-    <div className="mt-5 sm:mb-5 md:mb-10 h-auto flex flex-col items-center">
+    <div className="h-auto flex flex-col items-center">
       <span className="font-extralight text-sm rounded-full border px-3 py-1 bg-gradient">
         The Future of Debate Management
       </span>

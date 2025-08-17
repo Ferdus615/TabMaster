@@ -73,7 +73,7 @@ body {
 }
 
 @utility fluid-text-2 {
-  @apply text-[min(10vw,80px)] leading-[min(1,1.5)] font-medium p-5;
+  @apply text-[min(12vw,80px)] leading-[min(1,1.5)] font-medium p-5;
 }
 
 @utility fluid-text-3 {
@@ -126,7 +126,7 @@ body {
     gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
   .feature-card {
-    @apply flex flex-col border rounded-md p-5 h-auto w-70 lg:w-120 bg-persian/60 border-sky
+    @apply border rounded-md p-5 h-50 w-60 bg-persian/60 border-sky
      hover:bg-slate-500/40 transition ease-in-out;
   }
   .div-bg {

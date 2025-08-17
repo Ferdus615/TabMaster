@@ -17,8 +17,8 @@ export default function Home() {
       <Navbar />
       {/* <Hero /> */}
       <Hero_2 />
-      <Feature_2 />
       <Name />
+      <Feature_2 />
       <Vision />
       <Feature />
       <Roles />
