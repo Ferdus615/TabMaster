@@ -18,7 +18,7 @@ export default function Home() {
       {/* <Hero /> */}
       <Hero_2 />
       <Name />
-      <Feature_2 />
+      {/* <Feature_2 /> */}
       <Vision />
       <Feature />
       <Roles />

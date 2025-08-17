@@ -77,7 +77,7 @@ body {
 }
 
 @utility fluid-text-3 {
-  @apply text-[min(8vw,70px)] leading-[min(1,1.5)] font-medium p-5;
+  @apply text-[min(10vw,50px)] leading-[min(1,1.5)] font-medium p-5 tracking-normal;
 }
 
 @utility fluid-h {
@@ -92,6 +92,10 @@ body {
 
 @utility gradient-universe {
   @apply text-transparent bg-clip-text bg-linear-to-tr from-[#5606FF] to-rose;
+}
+
+@utility bg-universe {
+  @apply bg-linear-to-tr from-[#5606FF] to-rose;
 }
 
 @utility bg-gradient {
@@ -126,8 +130,7 @@ body {
     gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
   .feature-card {
-    @apply border rounded-md p-5 h-50 w-60 bg-persian/60 border-sky
-     hover:bg-slate-500/40 transition ease-in-out;
+    @apply border rounded-md p-5 h-50 w-60 hover:bg-slate-500/40 transition ease-in-out;
   }
   .div-bg {
     @apply bg-persian/40 p-5 rounded-2xl;

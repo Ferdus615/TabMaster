@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonR from "../Button/ButtonCTA";
+import Button from "../Button/ButtonCTA";
 
 const FinalCTA = () => {
   return (
@@ -28,8 +28,7 @@ const FinalCTA = () => {
         </p>
 
         <div className="flex gap-5 sm:flex-row items-center justify-between w-60 mt-5">
-          <ButtonR text="Try Demo" link="/demo" />
-          <ButtonR text="Register" link="/registration" />
+          <Button text="Try The Demo" link="/demo" />
         </div>
       </div>
     </div>
