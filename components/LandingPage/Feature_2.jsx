@@ -35,8 +35,8 @@ const Feature_2 = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center px-6 mx-auto max-w-6xl my-10">
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
+    <div className="flex items-center justify-center px-6 mx-auto max-w-6xl mb-15">
+      <div className="flex flex-col sm:flex-row justify-between items-center gap-8">
         {info.map((info, index) => (
           <div key={index} className="feature-card">
             <Image

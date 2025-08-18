@@ -77,7 +77,7 @@ body {
 }
 
 @utility fluid-text-3 {
-  @apply text-[min(5vw,50px)] leading-[min(1,1.5)] font-medium tracking-normal;
+  @apply text-[min(5vw,50px)] leading-[min(1,1.5)] text-colorText font-light tracking-normal;
 }
 
 @utility fluid-h {
@@ -130,7 +130,7 @@ body {
     gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
   .feature-card {
-    @apply border rounded-md p-5 h-50 w-60 hover:bg-slate-500/40 transition ease-in-out;
+    @apply border rounded-md p-5 h-50 w-60 hover:bg-slate-500/10 transition ease-in-out;
   }
   .div-bg {
     @apply bg-persian/40 p-5 rounded-2xl;
