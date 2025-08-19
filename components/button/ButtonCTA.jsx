@@ -1,6 +1,12 @@
 import React from "react";
 
-const ButtonR = ({ link = "#", id = "", text = "Click Me", onClick }) => {
+const Button = ({
+  link = "#",
+  id = "",
+  text = "Click Me",
+  onClick,
+  className,
+}) => {
   return (
     <a href={link} id={id} className={`CTAbtn`}>
       {text}
@@ -8,4 +14,4 @@ const ButtonR = ({ link = "#", id = "", text = "Click Me", onClick }) => {
   );
 };
 
-export default ButtonR;
+export default Button;

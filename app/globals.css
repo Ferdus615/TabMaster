@@ -126,11 +126,12 @@ body {
     hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
   .card-v {
-    @apply p-5 border-1 border-sky rounded-2xl h-60 w-80 bg-persian/60 flex flex-row items-center justify-center 
-    gap-5 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer transition ease-in-out;
+    @apply p-5 border border-sky rounded-2xl h-60 w-80 bg-persian/60 flex flex-row items-center justify-center 
+    gap-10 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
   .feature-card {
-    @apply border rounded-md p-5 h-50 w-60 hover:bg-slate-500/10 transition ease-in-out;
+    @apply p-5 border rounded-2xl h-60 w-80 sm:w-1/3 hover:bg-slate-500/10 flex flex-row items-center justify-center
+    gap-10 sm:gap-0 sm:flex-col sm:items-start cursor-pointer transition ease-in-out;
   }
   .div-bg {
     @apply bg-persian/40 p-5 rounded-2xl;
@@ -142,7 +143,7 @@ body {
     @apply text-[min(15vw,320px)] font-normal tracking-tighter z-10 text-transparent bg-clip-text text-center;
   }
   .CTAbtn {
-    @apply rounded-full font-extralight border-1 gradient-ipp px-4 py-2 text-sm
+    @apply rounded-full font-extralight border-1 gradient-ipp px-4 py-2 text-sm text-center
      hover:bg-persian hover:border-sky;
   }
 }

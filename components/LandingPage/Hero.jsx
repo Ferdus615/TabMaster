@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonR from "../Button/ButtonCTA";
+import Button from "../Button/ButtonCTA";
 import Link from "next/link";
 
 const Hero = () => {
@@ -17,8 +17,8 @@ const Hero = () => {
       </p>
 
       <div className="flex flex-col gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
-        <ButtonR text="Experience Demo" link="/demo" />
-        <ButtonR text="Contact Us" link="/contact" />
+        <Button text="Experience Demo" link="/demo" />
+        <Button text="Contact Us" link="/contact" />
       </div>
     </div>
   );
