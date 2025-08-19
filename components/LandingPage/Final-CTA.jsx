@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/ButtonCTA";
+import Button from "@/components/Button/ButtonCTA";
 
 const FinalCTA = () => {
   return (
