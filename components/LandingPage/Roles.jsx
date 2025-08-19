@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Button from "@/components/Button/MainButton";
+import MainButton from "../Button/MainButton";
 
 const Roles = () => {
   const roleAct = {
@@ -58,7 +58,7 @@ const Roles = () => {
         >
           {Object.keys(roleAct).map((role) => {
             return (
-              <Button
+              <MainButton
                 key={role}
                 text={role}
                 id={role}

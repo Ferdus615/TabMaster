@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({
+const ButtonCTA = ({
   link = "#",
   id = "",
   text = "Click Me",
@@ -15,4 +15,4 @@ const Button = ({
   );
 };
 
-export default Button;
+export default ButtonCTA;
