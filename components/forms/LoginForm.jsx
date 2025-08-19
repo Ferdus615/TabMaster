@@ -4,7 +4,7 @@ import Input from "../FormComponents/Input";
 import ButtonForm from "../FormComponents/ButtonForm";
 import CheckBox from "../FormComponents/CheckBox";
 
-const Login = () => {
+const LoginForm = () => {
   return (
     <form action="post" className="form">
       <Image
@@ -41,4 +41,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginForm;

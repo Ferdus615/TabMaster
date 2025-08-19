@@ -1,10 +1,10 @@
 import React from "react";
-import ForgotPassword from "@/components/Forms/ForgotPassword";
+import ForgotPass from "@/components/Forms/ForgotPass";
 
 const ForgotPassword = () => {
   return (
     <div className="form-div">
-      <ForgotPassword />
+      <ForgotPass />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Input from "../FormComponents/Input";
 import ButtonForm from "../FormComponents/ButtonForm";
 
-const ForgotPassword = () => {
+const ForgotPass = () => {
   return (
     <form action="post" className="form">
       <Image
@@ -46,4 +46,4 @@ const ForgotPassword = () => {
   );
 };
 
-export default ForgotPassword;
+export default ForgotPass;
