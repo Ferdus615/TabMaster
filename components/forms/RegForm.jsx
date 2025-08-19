@@ -5,7 +5,7 @@ import ButtonForm from "../FormComponents/ButtonForm";
 import DropDownMenu from "../FormComponents/DropDownMenu";
 import CheckBox from "../FormComponents/CheckBox";
 
-const Registration = () => {
+const RegForm = () => {
   return (
     <form action="post" className="form">
       <Image src="/logo-wide-w.svg" alt="Logo" width={150} height={150} />
@@ -43,4 +43,4 @@ const Registration = () => {
   );
 };
 
-export default Registration;
+export default RegForm;
