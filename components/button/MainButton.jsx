@@ -1,6 +1,6 @@
 import React from "react";
 
-const SButton = ({
+const MainButton = ({
   id = "",
   text = "Click Me",
   onClick,
@@ -23,4 +23,4 @@ const SButton = ({
   );
 };
 
-export default SButton;
+export default MainButton;
