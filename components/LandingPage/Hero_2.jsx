@@ -13,8 +13,12 @@ const Hero_2 = () => {
       </p>
 
       <div className="flex flex-col gap-5 sm:gap-10 sm:flex-row items-center justify-between w-80 mt-5 sm:mt-10">
-        <Button text="Experience Demo" link="/demo" />
-        <Button text="Contact Us" link="/contact" />
+        <Button link="/demo">
+          <span>Experience Demo</span>
+        </Button>
+        <Button link="/contact">
+          <span>Contact Us</span>
+        </Button>
       </div>
     </div>
   );

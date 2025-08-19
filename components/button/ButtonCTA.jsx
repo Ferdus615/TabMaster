@@ -6,10 +6,11 @@ const Button = ({
   text = "Click Me",
   onClick,
   className,
+  children,
 }) => {
   return (
-    <a href={link} id={id} className={`CTAbtn`}>
-      {text}
+    <a href={link} id={id} className={`CTAbtn ${className}`}>
+      {children || "Click Me"}
     </a>
   );
 };
