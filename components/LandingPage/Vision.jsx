@@ -3,7 +3,7 @@ import React from "react";
 const Vision = () => {
   return (
     <div className="mx-auto max-w-6xl mb-30">
-      <div className="rounded-md p-8 bg-colorText text-zinc-text">
+      <div className="rounded-md p-8 bg-colorText text-[#0a0a0a]">
         <h1 className="fluid-text-3 sm:text-justify">
           OUR VISION IS A WORLD WHERE DEBATE IS ACCESSIBLE, EFFICIENT, AND
           DATA-DRIVEN. SMARTER TOURNAMENTS, EMPOWERED ADJUDICATORS, AND A
