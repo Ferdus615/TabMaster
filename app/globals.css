@@ -77,7 +77,7 @@ body {
 }
 
 @utility fluid-text-3 {
-  @apply text-[min(5vw,50px)] leading-[min(1,1.5)] text-colorText font-light tracking-normal;
+  @apply text-[min(5vw,50px)] leading-[min(1,1.5)] font-extralight tracking-normal;
 }
 
 @utility fluid-h {
@@ -102,8 +102,16 @@ body {
   @apply bg-linear-to-r/increasing from-indigo-500 to-teal-400;
 }
 
+@utility bg-gradient-text {
+  @apply text-transparent bg-clip-text bg-linear-to-r/increasing from-indigo-500 to-teal-400;
+}
+
 @utility gradient-ipp {
   @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
+
+@utility gradient-ipp-text {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
 }
 
 /* link text */
@@ -143,8 +151,7 @@ body {
     @apply text-[min(15vw,320px)] font-normal tracking-tighter z-10 text-transparent bg-clip-text text-center;
   }
   .CTAbtn {
-    @apply rounded-full font-extralight border-1 gradient-ipp px-4 py-2 text-sm text-center
-     hover:bg-persian hover:border-sky;
+    @apply rounded-full font-extralight border-1 gradient-ipp px-4 py-2 text-sm text-center hover:bg-persian hover:border-sky;
   }
 }
 

@@ -1,6 +1,33 @@
 import React from "react";
 
 const Feature = () => {
+  const features = [
+    {
+      title: "Smart & Customizable Setup",
+      desc: "Auto-draws with flexible scoring, tie-breaks, and judging configs.",
+    },
+    {
+      title: "Debater Profiles - A Lifelong Journey",
+      desc: "Track personal progress, stats, and tournament history in one unified profile.",
+    },
+    {
+      title: "Role-Based User Access",
+      desc: "Admins, DCAs, Tab Staff, Judges, Debaters – everyone gets personalized access and tools.",
+    },
+    {
+      title: "Effortless User Experience",
+      desc: "Clean interface for setup, draw generation, and result entry. No learning curve.",
+    },
+    {
+      title: "Cloud-Powered Efficiency",
+      desc: "Real-time data access and collaboration from anywhere.",
+    },
+    {
+      title: "Affordable Excellence",
+      desc: "Premium features at a fraction of the cost of outdated solutions.",
+    },
+  ];
+
   return (
     <div className="px-6 mx-auto max-w-6xl mb-30">
       <h2 className="text-4xl font-semibold sm:text-center mb-5">
@@ -10,32 +37,7 @@ const Feature = () => {
         Explore the core features that makes TabMaster so powerfull.
       </p>
       <div className="card-grid">
-        {[
-          {
-            title: "Smart & Customizable Setup",
-            desc: "Auto-draws with flexible scoring, tie-breaks, and judging configs.",
-          },
-          {
-            title: "Debater Profiles - A Lifelong Journey",
-            desc: "Track personal progress, stats, and tournament history in one unified profile.",
-          },
-          {
-            title: "Role-Based User Access",
-            desc: "Admins, DCAs, Tab Staff, Judges, Debaters – everyone gets personalized access and tools.",
-          },
-          {
-            title: "Effortless User Experience",
-            desc: "Clean interface for setup, draw generation, and result entry. No learning curve.",
-          },
-          {
-            title: "Cloud-Powered Efficiency",
-            desc: "Real-time data access and collaboration from anywhere.",
-          },
-          {
-            title: "Affordable Excellence",
-            desc: "Premium features at a fraction of the cost of outdated solutions.",
-          },
-        ].map((feature, index) => (
+        {features.map((feature, index) => (
           <div key={index} className="card">
             <h3 className="font-bold text-lg">{feature.title}</h3>
             <p className="font-extralight text-sm">{feature.desc}</p>
