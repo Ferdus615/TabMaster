@@ -2,8 +2,8 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="mx-auto max-w-6xl mb-20">
-      <div className="bg-persian/60 rounded-md text-colorText p-8">
+    <div className="mx-auto max-w-6xl mb-30">
+      <div className="rounded-md p-8 bg-colorText text-zinc-text">
         <h1 className="fluid-text-3 sm:text-justify">
           OUR VISION IS A WORLD WHERE DEBATE IS ACCESSIBLE, EFFICIENT, AND
           DATA-DRIVEN. SMARTER TOURNAMENTS, EMPOWERED ADJUDICATORS, AND A
