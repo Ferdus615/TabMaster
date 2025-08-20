@@ -1,10 +1,10 @@
+import RegForm from "@/components/Forms/RegForm";
 import React from "react";
-import Registration_Form from "@/components/Forms/Registration";
 
 const Registration = () => {
   return (
     <div className="form-div">
-      <Registration_Form />
+      <RegForm />
     </div>
   );
 };

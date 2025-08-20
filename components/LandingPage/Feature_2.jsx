@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
 
 const Feature_2 = () => {
   const info = [
@@ -16,14 +15,14 @@ const Feature_2 = () => {
       desc: "Smart scheduling algorithm that optimizes rounds and minimizes conflicts.",
       src: "/feature_2-pic/trophy.svg",
       height: "50",
-      width: "50",
+      width: "40",
     },
     {
       title: "Live Results",
       desc: "Real-time scoring and rankings with instant result publication.",
       src: "/feature_2-pic/result.svg",
       height: "50",
-      width: "50",
+      width: "40",
     },
     {
       title: "Debaters Profile",
@@ -35,22 +34,22 @@ const Feature_2 = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center px-6 mx-auto max-w-6xl mb-15">
-      <div className="flex flex-col sm:flex-row justify-between items-center gap-8">
-        {info.map((info, index) => (
-          <div key={index} className="feature-card">
-            <Image
-              src={info.src}
-              height={info.height}
-              width={info.width}
-              alt="icon"
-              className="mb-6"
-            />
+    <div className="flex flex-col gap-10 justify-center items-center sm:flex-row flex-wrap mb-15">
+      {info.map((info, index) => (
+        <div key={index} className="feature-card">
+          <Image
+            src={info.src}
+            height={info.height}
+            width={info.width}
+            alt="icon"
+            className="sm:mb-5 md:mb-10"
+          />
+          <div>
             <h2 className="font-bold text-lg ">{info.title}</h2>
             <p className="text-sm font-light text-zinc-text">{info.desc}</p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };
