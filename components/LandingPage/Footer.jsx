@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-
 // const Footer = () => {
 //   return (
 //     <div className="w-full h-80 px-[min(10vw,120px)] flex justify-center items-center">
@@ -54,7 +53,17 @@ const Footer = () => {
       <div>
         <h1>TabMaster</h1>
       </div>
-      <div></div>
+      <div>
+        <Link>Contact</Link>
+        <Link>Terms & Condition</Link>
+        <Link>Privacy Policy</Link>
+      </div>
+      <div>
+        <Link>Gmail</Link>
+        <Link>GitHub</Link>
+        <Link>Facebook</Link>
+        <Link>Linkedin</Link>
+      </div>
     </div>
   );
 };
