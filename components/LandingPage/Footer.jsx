@@ -54,15 +54,15 @@ const Footer = () => {
         <h1>TabMaster</h1>
       </div>
       <div>
-        <Link>Contact</Link>
-        <Link>Terms & Condition</Link>
-        <Link>Privacy Policy</Link>
+        <Link href="#">Contact</Link>
+        <Link href="#">Terms & Condition</Link>
+        <Link href="#">Privacy Policy</Link>
       </div>
       <div>
-        <Link>Gmail</Link>
-        <Link>GitHub</Link>
-        <Link>Facebook</Link>
-        <Link>Linkedin</Link>
+        <Link href="#">Gmail</Link>
+        <Link href="#">GitHub</Link>
+        <Link href="#">Facebook</Link>
+        <Link href="#">Linkedin</Link>
       </div>
     </div>
   );
