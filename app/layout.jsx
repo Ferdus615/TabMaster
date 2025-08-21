@@ -1,4 +1,4 @@
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import DotGrid from "@/components/DotGrid";
 
@@ -8,6 +8,7 @@ const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
+
 
 export const metadata = {
   title: "TabMaster",

@@ -50,19 +50,29 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <div>
-        <h1>TabMaster</h1>
+      <div className="flex">
+        <div className="flex gap-5">
+          <Link href="#">Terms & Condition</Link>
+          <Link href="#">Privacy Policy</Link>
+        </div>
+
+        <div>
+          <Link href="#">GitHub</Link>
+          <Link href="#">Facebook</Link>
+          <Link href="#">Linkedin</Link>
+        </div>
+
+        <div>
+          <Link href="#">Contact</Link>
+        </div>
       </div>
+
       <div>
-        <Link href="#">Contact</Link>
-        <Link href="#">Terms & Condition</Link>
-        <Link href="#">Privacy Policy</Link>
+        <h1 className="fluid-text-footer">TabMaster</h1>
       </div>
+
       <div>
         <Link href="#">Gmail</Link>
-        <Link href="#">GitHub</Link>
-        <Link href="#">Facebook</Link>
-        <Link href="#">Linkedin</Link>
       </div>
     </div>
   );
