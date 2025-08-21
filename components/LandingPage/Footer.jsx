@@ -50,8 +50,8 @@ import Button from "../Button/ButtonCTA";
 
 const Footer = () => {
   return (
-    <div className="mb-10 px-5">
-      <div className="flex flex-col gap-8 justify-between text-sm font-extralight sm:flex-row">
+    <div className="mx-auto max-w-6xl mb-10 px-5">
+      <div className="flex flex-col gap-10 justify-between text-sm font-extralight sm:flex-row">
         <div className="flex flex-row justify-between w-2/3">
           <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
             <Link href="/terms">Terms & Condition</Link>
