@@ -38,29 +38,27 @@ const Tech = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto mb-30">
-      <div className="flex flex-col justify-center items-center gap-10">
-        <h1 className="fluid-h gradient-ipp-text">
-          Secure - Scalable - and Reliable
-        </h1>
+    <div className="flex flex-col justify-center items-center gap-10 mb-20">
+      <h1 className="fluid-h gradient-ipp-text mt-15">
+        Secure - Scalable - and Reliable
+      </h1>
 
-        <div className="flex flex-col gap-10 justify-center items-center sm:flex-row flex-wrap">
-          {infos.map((info) => (
-            <div key={info.key} className="card-v">
-              <Image
-                src={info.pic}
-                width={info.width}
-                height={info.height}
-                alt="image"
-                className="sm:mb-5"
-              />
-              <div>
-                <h3 className="font-bold mb-3">{info.title}</h3>
-                <p className="font-extralight text-sm mb-0">{info.desc}</p>
-              </div>
+      <div className="card-div">
+        {infos.map((info) => (
+          <div key={info.key} className="feature-card">
+            <Image
+              src={info.pic}
+              width={info.width}
+              height={info.height}
+              alt="icon"
+              className="sm:mb-5 md:mb-10"
+            />
+            <div>
+              <h3 className="font-bold mb-3">{info.title}</h3>
+              <p className="font-extralight text-sm mb-0">{info.desc}</p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );
