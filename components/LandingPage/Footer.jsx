@@ -50,33 +50,43 @@ import Button from "../Button/ButtonCTA";
 
 const Footer = () => {
   return (
-    <div className="mb-10">
-      <div className="flex justify-between text-sm font-extralight">
-        <div className="flex gap-5">
-          <Link href="/terms">Terms & Condition</Link>
-          <Link href="/privacy">Privacy Policy</Link>
+    <div className="mb-10 px-5">
+      <div className="flex flex-col gap-8 justify-between text-sm font-extralight sm:flex-row">
+        <div className="flex flex-row justify-between w-2/3">
+          <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
+            <Link href="/terms">Terms & Condition</Link>
+            <Link href="/privacy">Privacy Policy</Link>
+          </div>
+
+          <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
+            <Link href="#">GitHub</Link>
+            <Link href="#">Facebook</Link>
+            <Link href="#">Linkedin</Link>
+          </div>
         </div>
 
-        <div className="flex gap-5">
-          <Link href="#">GitHub</Link>
-          <Link href="#">Facebook</Link>
-          <Link href="#">Linkedin</Link>
-        </div>
-
-        <div className="flex gap-5">
-          <Link href="/contact" className="border rounded-full px-10 py-1">
+        <div>
+          <Link
+            href="/contact"
+            className="border rounded-full px-10 py-1 flex items-center justify-center"
+          >
             Contact
           </Link>
         </div>
       </div>
 
       <div>
-        <h1 className="fluid-text-footer">TabMaster</h1>
+        <h1 className="fluid-text-footer mb-0">TabMaster</h1>
       </div>
 
-      <div className="flex justify-between text-sm font-extralight">
-        <div className="border rounded-full px-10 py-1">
-          tab.maaster@gmail.com
+      <div className="flex flex-col sm:flex-row gap-5 justify-between text-sm font-extralight">
+        <div>
+          <Link
+            href="#"
+            className="border rounded-full px-10 py-1 flex items-center justify-center"
+          >
+            tab.maaster@gmail.com
+          </Link>
         </div>
         <div className="">
           © Copyright 2025. All right reserved by TabMaster.

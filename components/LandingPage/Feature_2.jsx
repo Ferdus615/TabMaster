@@ -34,7 +34,7 @@ const Feature_2 = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-10 justify-center items-center sm:flex-row flex-wrap mb-15">
+    <div className="card-div">
       {info.map((info, index) => (
         <div key={index} className="feature-card">
           <Image
@@ -45,8 +45,8 @@ const Feature_2 = () => {
             className="sm:mb-5 md:mb-10"
           />
           <div>
-            <h2 className="font-bold text-lg ">{info.title}</h2>
-            <p className="text-sm font-light text-zinc-text">{info.desc}</p>
+            <h2 className="font-bold mb-3">{info.title}</h2>
+            <p className="font-extralight text-sm mb-0">{info.desc}</p>
           </div>
         </div>
       ))}
