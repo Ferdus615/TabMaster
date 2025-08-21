@@ -80,6 +80,10 @@ body {
   @apply text-[min(5vw,50px)] leading-[min(1,1.5)] font-extralight tracking-normal;
 }
 
+@utility fluid-text-footer {
+  @apply text-[min(15vw,350px)] leading-[min(1,1.5)] font-medium text-center p-5;
+}
+
 @utility fluid-h {
   @apply text-[min(6vw,40px)] leading-[min(1,1.5)] font-bold;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Button from "../Button/ButtonCTA";
 
 // const Footer = () => {
 //   return (
@@ -49,20 +50,37 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
-      <div>
-        <h1>TabMaster</h1>
+    <div className="mb-10">
+      <div className="flex justify-between text-sm font-extralight">
+        <div className="flex gap-5">
+          <Link href="/terms">Terms & Condition</Link>
+          <Link href="/privacy">Privacy Policy</Link>
+        </div>
+
+        <div className="flex gap-5">
+          <Link href="#">GitHub</Link>
+          <Link href="#">Facebook</Link>
+          <Link href="#">Linkedin</Link>
+        </div>
+
+        <div className="flex gap-5">
+          <Link href="/contact" className="border rounded-full px-10 py-1">
+            Contact
+          </Link>
+        </div>
       </div>
+
       <div>
-        <Link href="#">Contact</Link>
-        <Link href="#">Terms & Condition</Link>
-        <Link href="#">Privacy Policy</Link>
+        <h1 className="fluid-text-footer">TabMaster</h1>
       </div>
-      <div>
-        <Link href="#">Gmail</Link>
-        <Link href="#">GitHub</Link>
-        <Link href="#">Facebook</Link>
-        <Link href="#">Linkedin</Link>
+
+      <div className="flex justify-between text-sm font-extralight">
+        <div className="border rounded-full px-10 py-1">
+          tab.maaster@gmail.com
+        </div>
+        <div className="">
+          © Copyright 2025. All right reserved by TabMaster.
+        </div>
       </div>
     </div>
   );
