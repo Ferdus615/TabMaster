@@ -59,9 +59,9 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
-            <Link href="#">GitHub</Link>
+            <Link href="https://www.github.com/Ferdus615">GitHub</Link>
             <Link href="#">Facebook</Link>
-            <Link href="#">Linkedin</Link>
+            <Link href="https://www.linkedin.com/in/ferdus615">Linkedin</Link>
           </div>
         </div>
 
@@ -82,7 +82,8 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row gap-5 justify-between text-sm font-extralight">
         <div>
           <Link
-            href="#"
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=tab.maaster@gmail.com&su=Hello%20TabMaster%20Team&body=I%20wanted%20to%20contact%20with%20you%20about-"
+            target="_blank"
             className="border rounded-full px-10 py-1 flex items-center justify-center"
           >
             tab.maaster@gmail.com

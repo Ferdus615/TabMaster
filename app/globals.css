@@ -81,7 +81,7 @@ body {
 }
 
 @utility fluid-text-footer {
-  @apply text-[min(15vw,250px)] leading-[min(1,1.5)] font-medium text-center py-10;
+  @apply text-[min(15vw,200px)] leading-[min(1,1.5)] font-medium text-center py-10;
 }
 
 @utility fluid-h {
