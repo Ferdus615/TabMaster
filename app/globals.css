@@ -103,7 +103,7 @@ body {
 }
 
 @utility bg-gradient {
-  @apply bg-linear-to-r/increasing from-indigo-500 to-teal-400;
+  @apply bg-linear-to-r/increasing from-indigo-500 to-orange-400;
 }
 
 @utility bg-gradient-text {
