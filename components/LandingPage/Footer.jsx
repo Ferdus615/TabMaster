@@ -59,9 +59,15 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
-            <Link href="https://www.github.com/Ferdus615">GitHub</Link>
-            <Link href="#">Facebook</Link>
-            <Link href="https://www.linkedin.com/in/ferdus615">Linkedin</Link>
+            <Link href="https://www.github.com/Ferdus615" target="_blank">
+              GitHub
+            </Link>
+            <Link href="#" target="_blank">
+              Facebook
+            </Link>
+            <Link href="https://www.linkedin.com/in/ferdus615" target="_blank">
+              Linkedin
+            </Link>
           </div>
         </div>
 

@@ -1,14 +1,19 @@
-import { Inter } from "next/font/google";
+import React from "react";
+import { Space_Grotesk, DM_Sans } from "next/font/google";
 import "./globals.css";
 import DotGrid from "@/components/DotGrid";
 
-const inter = Inter({
-  variable: "--font-inter",
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-space-grotesk",
 });
 
+const dmsans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-dm-sans",
+});
 
 export const metadata = {
   title: "TabMaster",
@@ -18,7 +23,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased`}>
+    <html
+      lang="en"
+      className={`${spaceGrotesk.variable} ${dmsans.variable} antialiased`}
+    >
       <body className="relative min-h-screen">
         <div className="fixed inset-0 z-0">
           <DotGrid

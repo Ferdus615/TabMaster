@@ -1,45 +1,12 @@
 @import "tailwindcss";
 
-:root {
-  --font-body: var(--font-inter);
-}
-
-*::selection {
-  background-color: oklch(68.5% 0.169 237.323);
-  color: antiquewhite;
-}
-
-::-webkit-scrollbar {
-  background-color: #0a0a0a;
-  width: 7px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #e5e5e5;
-  border-radius: 20px;
-}
-
-/* globals.css */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  scroll-behavior: smooth;
-  /* background-color: #0a0a0a; */
-  background-color: #0a0a0a;
-  color: #f5f5f5;
-  font-family: var(--font-body);
-}
-/* ========================================================== */
-
-/* 
-#10172a #violet-black
-#0a0a0a #dark-black
-#e5e5e5 #light-gray
-#171717 #dark-gray
+/*
+  ==========================================================
+  Theme
+  ==========================================================
 */
-
 @theme {
+  --font-heading: "Space Grotesk";
   --color-purple: #5606ff;
   --color-colorText: #f5f5f5;
   --color-persian: #10172a;
@@ -54,6 +21,47 @@ body {
   --color-theader: oklch(12.9% 0.042 264.695); /* slate-950 */
 }
 
+/*
+  ==========================================================
+  Root & Global Styles
+  ==========================================================
+*/
+:root {
+  --font-body: var(--font-dm-sans);
+  --font-heading: var(--font-space-grotesk);
+}
+
+*::selection {
+  background-color: oklch(68.5% 0.169 237.323);
+  color: antiquewhite;
+}
+
+::-webkit-scrollbar {
+  background-color: #0a0a0a;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e5e5e5;
+  border-radius: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+  font-family: var(--font-body);
+}
+
+/*
+  ==========================================================
+  Utility Classes
+  ==========================================================
+*/
 @utility div-space {
   @apply px-6 mx-auto max-w-6xl;
 }
@@ -66,26 +74,25 @@ body {
   @apply grid grid-cols-1 w-full max-w-sm gap-8;
 }
 
-/* Fluid text */
-
+/* Fluid Text */
 @utility fluid-text {
-  @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5;
+  @apply text-[min(10vw,60px)] leading-[min(1,1.5)] font-bold p-5 font-heading;
 }
 
 @utility fluid-text-2 {
-  @apply text-[min(12vw,80px)] leading-[min(1,1.5)] font-medium p-5;
+  @apply text-[min(12vw,80px)] leading-[min(1,1.5)] font-medium p-5 font-heading;
 }
 
 @utility fluid-text-3 {
-  @apply text-[min(5vw,50px)] leading-[min(1,1.5)] font-extralight tracking-normal;
+  @apply text-[min(5vw,50px)] leading-[min(1,1.5)] font-extralight tracking-normal text-center font-heading;
 }
 
 @utility fluid-text-footer {
-  @apply text-[min(15vw,200px)] leading-[min(1,1.5)] font-medium text-center py-10;
+  @apply text-[min(15vw,200px)] leading-[min(1,1.5)] font-medium text-center py-10 font-heading;
 }
 
 @utility fluid-h {
-  @apply text-[min(6vw,40px)] leading-[min(1,1.5)] font-bold;
+  @apply text-[min(6vw,40px)] leading-[min(1,1.5)] font-bold font-heading;
 }
 
 @utility fluid-p {
@@ -93,7 +100,6 @@ body {
 }
 
 /* Gradients */
-
 @utility gradient-universe {
   @apply text-transparent bg-clip-text bg-linear-to-tr from-[#5606FF] to-rose;
 }
@@ -118,8 +124,7 @@ body {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
 }
 
-/* link text */
-
+/* Link Text */
 @utility link-text {
   @apply italic font-light text-colorText transition duration-300 ease-in-out hover:text-sky relative pb-[3px] px-1 
   after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-full after:bg-colorText after:-z-10 
@@ -132,43 +137,60 @@ body {
   hover:after:h-full hover:after:duration-300 hover:after:ease-in-out;
 }
 
+/*
+  ==========================================================
+  Component Classes
+  ==========================================================
+*/
 @layer component {
   .card {
     @apply flex flex-col gap-5 p-4 bg-persian/60 border-1 border-sky rounded-lg justify-between
     hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
+
   .card-div {
     @apply flex flex-col gap-10 justify-center items-center sm:flex-row flex-wrap;
   }
+
   .card-v {
     @apply p-5 border border-sky rounded-2xl h-60 w-80 bg-persian/60 flex flex-row items-center justify-center 
     gap-10 sm:flex-col sm:h-80 sm:w-60 sm:items-start hover:bg-persian/40 cursor-pointer transition ease-in-out;
   }
+
   .feature-card {
     @apply p-5 border rounded-2xl h-60 w-80 sm:w-1/3 hover:bg-slate-500/10 flex flex-row items-center justify-center
     gap-10 sm:gap-0 sm:flex-col sm:items-start cursor-pointer transition ease-in-out;
   }
+
   .div-bg {
     @apply bg-persian/40 p-5 rounded-2xl;
   }
+
   .card-grid {
     @apply grid md:grid-cols-2 lg:grid-cols-3 gap-10;
   }
+
   .name_style {
     @apply text-[min(15vw,320px)] font-normal tracking-tighter z-10 text-transparent bg-clip-text text-center;
   }
+
   .CTAbtn {
     @apply rounded-full font-extralight border-1 gradient-ipp px-4 py-2 text-sm text-center hover:bg-persian hover:border-sky;
   }
 }
 
+/*
+  ==========================================================
+  Base Styles
+  ==========================================================
+*/
 @layer base {
   h1 {
-    @apply text-2xl font-bold mb-5;
+    @apply text-2xl font-bold mb-5 font-heading;
   }
 
   h2 {
-    @apply text-xl font-medium mb-2 mt-5;
+    @apply text-xl font-medium mb-2 mt-5 font-heading;
   }
 
   p {
