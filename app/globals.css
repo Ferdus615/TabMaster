@@ -81,7 +81,7 @@ body {
 }
 
 @utility fluid-text-footer {
-  @apply text-[min(15vw,350px)] leading-[min(1,1.5)] font-medium text-center p-5;
+  @apply text-[min(15vw,200px)] leading-[min(1,1.5)] font-medium text-center py-10;
 }
 
 @utility fluid-h {
@@ -103,7 +103,7 @@ body {
 }
 
 @utility bg-gradient {
-  @apply bg-linear-to-r/increasing from-indigo-500 to-teal-400;
+  @apply bg-linear-to-r/increasing from-indigo-500 to-orange-400;
 }
 
 @utility bg-gradient-text {
@@ -136,6 +136,9 @@ body {
   .card {
     @apply flex flex-col gap-5 p-4 bg-persian/60 border-1 border-sky rounded-lg justify-between
     hover:bg-persian/40 cursor-pointer transition ease-in-out;
+  }
+  .card-div {
+    @apply flex flex-col gap-10 justify-center items-center sm:flex-row flex-wrap;
   }
   .card-v {
     @apply p-5 border border-sky rounded-2xl h-60 w-80 bg-persian/60 flex flex-row items-center justify-center 

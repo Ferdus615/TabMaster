@@ -50,33 +50,44 @@ import Button from "../Button/ButtonCTA";
 
 const Footer = () => {
   return (
-    <div className="mb-10">
-      <div className="flex justify-between text-sm font-extralight">
-        <div className="flex gap-5">
-          <Link href="/terms">Terms & Condition</Link>
-          <Link href="/privacy">Privacy Policy</Link>
+    <div className="mx-auto max-w-6xl mb-10 px-5">
+      <div className="flex flex-col gap-10 justify-between text-sm font-extralight sm:flex-row">
+        <div className="flex flex-row justify-between w-2/3">
+          <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
+            <Link href="/terms">Terms & Condition</Link>
+            <Link href="/privacy">Privacy Policy</Link>
+          </div>
+
+          <div className="flex gap-3 sm:gap-5 flex-col sm:flex-row">
+            <Link href="https://www.github.com/Ferdus615">GitHub</Link>
+            <Link href="#">Facebook</Link>
+            <Link href="https://www.linkedin.com/in/ferdus615">Linkedin</Link>
+          </div>
         </div>
 
-        <div className="flex gap-5">
-          <Link href="#">GitHub</Link>
-          <Link href="#">Facebook</Link>
-          <Link href="#">Linkedin</Link>
-        </div>
-
-        <div className="flex gap-5">
-          <Link href="/contact" className="border rounded-full px-10 py-1">
+        <div>
+          <Link
+            href="/contact"
+            className="border rounded-full px-10 py-1 flex items-center justify-center"
+          >
             Contact
           </Link>
         </div>
       </div>
 
       <div>
-        <h1 className="fluid-text-footer">TabMaster</h1>
+        <h1 className="fluid-text-footer mb-0">TabMaster</h1>
       </div>
 
-      <div className="flex justify-between text-sm font-extralight">
-        <div className="border rounded-full px-10 py-1">
-          tab.maaster@gmail.com
+      <div className="flex flex-col sm:flex-row gap-5 justify-between text-sm font-extralight">
+        <div>
+          <Link
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=tab.maaster@gmail.com&su=Hello%20TabMaster%20Team&body=I%20wanted%20to%20contact%20with%20you%20about-"
+            target="_blank"
+            className="border rounded-full px-10 py-1 flex items-center justify-center"
+          >
+            tab.maaster@gmail.com
+          </Link>
         </div>
         <div className="">
           © Copyright 2025. All right reserved by TabMaster.

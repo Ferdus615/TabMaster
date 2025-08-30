@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
 
 const TeamManagement = () => {
   return (
-    <div>TeamManagement</div>
-  )
-}
+    <div>
+      <h2>TeamManagement</h2>
 
-export default TeamManagement
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <td>hello</td>
+              <td>hello</td>
+              <td>hello</td>
+              <td>hello</td>
+              <td>hello</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  );
+};
+
+export default TeamManagement;
