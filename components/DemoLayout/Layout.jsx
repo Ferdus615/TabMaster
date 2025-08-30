@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { Children } from "react";
+import Sidebar from "@/components/DemoComponents/DemoSidebar";
+import Footer from "@/components/DemoComponents/DemoFooter";
 
-const Layout = () => {
+const page = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <div className="flex min-h-screen">
+      <Sidebar />
 
-export default Layout
+      <div className="flex flex-col flex-grow">
+        <main className="flex-grow p-4">
+          <p>Hello, world 👋</p>
+        </main>
+        <Footer />
+      </div>
+    </div>
+  );
+};
+
+export default page;

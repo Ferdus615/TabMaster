@@ -1,10 +1,12 @@
 import React from "react";
-import TeamPage from "@/components/DemoPages/TeamTable";
-import Navigation from "@/components/DemoComponents/DemoSidebar";
-import DemoFooter from "@/components/DemoComponents/DemoFooter";
+import Layout from "@/components/DemoLayout/Layout";
 
 const page = () => {
-  return <Navigation />;
+  return (
+    <div>
+      <Layout />
+    </div>
+  );
 };
 
 export default page;
