@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="77f21e8c-5c08-4b4d-b8dc-569594025ee7"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="a66a44ca-0ecb-4d1a-a3f8-79b6e2c82f65"  >
+</g>
+<g transform="matrix(43.43 0 0 43.43 539.93 539.93)" id="8b309da9-056f-4acb-9d6c-a34da1023b25"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(229,229,229); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-12, -12)" d="M 18 8 C 15.794 8 14 6.2059999999999995 14 4 C 14 1.7940000000000005 15.794 0 18 0 C 20.206 0 22 1.794 22 4 C 22 6.2059999999999995 20.206 8 18 8 Z M 12 15 C 9.794 15 8 13.206 8 11 C 8 8.794 9.794 7 12 7 C 14.206 7 16 8.794 16 11 C 16 13.206 14.206 15 12 15 Z M 6 8 C 3.794 8 2 6.2059999999999995 2 4 C 2 1.7940000000000005 3.794 0 6 0 C 8.206 0 10 1.794 10 4 C 10 6.2059999999999995 8.206 8 6 8 Z M 18 22 L 18 19.5 C 18 17.57 16.43 16 14.5 16 L 9.5 16 C 7.57 16 6 17.57 6 19.5 L 6 22 L 0 22 L 0 24 L 24 24 L 24 22 L 18 22 Z M 7.157 14.532 C 6.431 13.541 6 12.321 6 11 C 6 10.659 6.035 10.326 6.09 10 L 3.5 10 C 1.567 10 0 11.567 0 13.5 L 0 16 L 5.261 16 C 5.774 15.38 6.422000000000001 14.879999999999999 7.157 14.532 Z M 20.5 10 L 17.91 10 C 17.965 10.326 18 10.659 18 11 C 18 12.321 17.569 13.54 16.843 14.532 C 17.576999999999998 14.88 18.226 15.381 18.739 16 L 24 16 L 24 13.5 C 24 11.567 22.433 10 20.5 10 Z" stroke-linecap="round" />
+</g>
+</svg>
