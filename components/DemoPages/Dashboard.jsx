@@ -237,7 +237,6 @@ const Leaderboard = () => {
                   <td className="font-bold">Rank</td>
                   <td className="font-bold">Speaker</td>
                   <td className="font-bold">Team</td>
-                  <td className="font-bold">Institute</td>
                   <td className="font-bold">Points</td>
                 </tr>
               </thead>
@@ -249,9 +248,13 @@ const Leaderboard = () => {
                         {info.rank}
                       </span>
                     </td>
-                    <td>{info.name}</td>
+                    <td className="flex flex-col">
+                      <span>{info.name}</span>
+                      <span className="font-extralight text-sm">
+                        {info.institute}
+                      </span>
+                    </td>
                     <td>{info.team}</td>
-                    <td>{info.institute}</td>
                     <td className="font-bold">{info.points}</td>
                   </tr>
                 ))}
