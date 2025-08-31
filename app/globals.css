@@ -206,22 +206,22 @@ body {
   }
 
   table {
-    @apply border-2 text-center;
+    @apply text-left w-full;
   }
 
   thead {
-    @apply bg-rose/40;
+    @apply font-heading;
   }
 
   tbody {
     @apply hover:cursor-pointer;
   }
 
-  th {
-    @apply border p-5 font-bold;
+  tr {
+    @apply bg-slate-700;
   }
 
   td {
-    @apply border p-5 font-light;
+    @apply p-4 text-lg font-light;
   }
 }
