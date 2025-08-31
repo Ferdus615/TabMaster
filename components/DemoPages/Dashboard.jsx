@@ -159,24 +159,48 @@ const Leaderboard = () => {
           <h2 className="m-0 text-2xl font-bold">Quick Action</h2>
         </div>
         <div className="flex flex-wrap gap-4">
-          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText">
+          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+            <Image
+              src="/feature_2-pic/add.svg"
+              height={18}
+              width={18}
+              alt="icon"
+            />
             Create Round
           </span>
-          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText">
+          <span className="bg-orange-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+            <Image
+              src="/feature_2-pic/teams.svg"
+              height={18}
+              width={18}
+              alt="icon"
+            />
             Manage Teams
           </span>
-          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText">
+          <span className="rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+            <Image
+              src="/feature_2-pic/result.svg"
+              height={18}
+              width={18}
+              alt="icon"
+            />
             View Results
           </span>
-          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText">
+          <span className="rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+            <Image
+              src="/feature_2-pic/setting.svg"
+              height={18}
+              width={18}
+              alt="icon"
+            />
             Tournament Settings
           </span>
         </div>
       </div>
 
       {/* Leaderboard tab */}
-      <div className="flex flex-row gap-4">
-        <div className="bg-gray-800 rounded-xl p-3 w-1/2">
+      <div className="flex flex-col lg:flex-row gap-4">
+        <div className="bg-gray-800 rounded-xl p-3 w-full lg:w-1/2">
           <span className="font-heading font-bold text-colorText text-xl flex gap-3 items-center">
             <Image
               src="/feature_2-pic/team.svg"
@@ -220,7 +244,8 @@ const Leaderboard = () => {
             </table>
           </div>
         </div>
-        <div className="bg-gray-800 rounded-xl p-3 w-1/2">
+
+        <div className="bg-gray-800 rounded-xl p-3 w-full lg:w-1/2">
           <span className="font-heading font-bold text-colorText text-xl flex gap-3 items-center">
             <Image
               src="/feature_2-pic/debater.svg"
