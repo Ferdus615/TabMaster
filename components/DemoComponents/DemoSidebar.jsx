@@ -23,7 +23,7 @@ const Navigation = () => {
   ];
 
   return (
-    <aside className="flex flex-col items-start w-54 bg-gray-900 text-white h-screen px-4 py-10 rounded-md">
+    <aside className="flex flex-col items-start w-54 bg-gray-900 text-colorText min-h-screen px-4 py-5 rounded-md">
       <div className="mb-10">
         <Image src="/logo-wide-w.svg" width={180} height={50} alt="logo" />
       </div>

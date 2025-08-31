@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Leaderboard = () => {
-  return (
-    <div>Leaderboard</div>
-  )
-}
+  return <div>Leaderboard</div>;
+};
 
-export default Leaderboard
+export default Leaderboard;
