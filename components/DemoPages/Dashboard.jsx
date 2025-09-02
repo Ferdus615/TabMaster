@@ -159,7 +159,10 @@ const Leaderboard = () => {
           <h2 className="m-0 text-2xl font-bold">Quick Action</h2>
         </div>
         <div className="flex flex-wrap gap-4">
-          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+          <span
+            className="bg-yellow-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2 hover:cursor-pointer 
+          hover:bg-sky"
+          >
             <Image
               src="/feature_2-pic/add.svg"
               height={18}
@@ -168,7 +171,10 @@ const Leaderboard = () => {
             />
             Create Round
           </span>
-          <span className="bg-orange-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+          <span
+            className="bg-orange-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2 hover:cursor-pointer 
+          hover:bg-sky"
+          >
             <Image
               src="/feature_2-pic/teams.svg"
               height={18}
@@ -177,7 +183,10 @@ const Leaderboard = () => {
             />
             Manage Teams
           </span>
-          <span className="rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+          <span
+            className="rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2 hover:cursor-pointer 
+          hover:bg-sky"
+          >
             <Image
               src="/feature_2-pic/result.svg"
               height={18}
@@ -186,7 +195,10 @@ const Leaderboard = () => {
             />
             View Results
           </span>
-          <span className="rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2">
+          <span
+            className="rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2 hover:cursor-pointer 
+          hover:bg-sky"
+          >
             <Image
               src="/feature_2-pic/setting.svg"
               height={18}

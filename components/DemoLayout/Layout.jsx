@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "@/components/DemoComponents/DemoSidebar";
 import Footer from "@/components/DemoComponents/DemoFooter";
 import Dashboard from "../DemoPages/Dashboard";
+import TeamManagement from "../DemoPages/TeamManagement";
 
 const page = () => {
   return (
@@ -10,7 +11,7 @@ const page = () => {
 
       <div className="flex flex-col flex-grow">
         <main className="flex-grow pl-4">
-          <Dashboard />
+          <TeamManagement />
         </main>
         <Footer />
       </div>
