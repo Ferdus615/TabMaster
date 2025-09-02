@@ -79,6 +79,35 @@ const TeamManagement = () => {
           </span>
         </div>
       </div>
+
+      {/* team table */}
+      <div>
+        {/* table head */}
+        <div className="rounded-xl overflow-hidden">
+          <table>
+            <thead>
+              <tr>
+                <td>Code</td>
+                <td>Team Name</td>
+                <td>Institute</td>
+                <td>Speakers</td>
+                <td>Wins</td>
+                <td>Loses</td>
+                <td>Points</td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+
+        {/* table body */}
+        <div>
+          <table className="rounded-xl overflow-hidden">
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 };
