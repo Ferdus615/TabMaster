@@ -402,9 +402,9 @@ const TeamManagement = () => {
                       </span>
                     ))}
                   </td>
-                  <td className="p-4 text-center">{team.wins}</td>
-                  <td className="p-4 text-center">{team.loses}</td>
-                  <td className="p-4 text-center">{team.points}</td>
+                  <td className="p-4 text-center font-bold">{team.wins}</td>
+                  <td className="p-4 text-center font-bold">{team.loses}</td>
+                  <td className="p-4 text-center font-bold">{team.points}</td>
                 </tr>
               ))}
             </tbody>
