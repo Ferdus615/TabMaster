@@ -375,35 +375,36 @@ const TeamManagement = () => {
         <div>
           <table>
             <thead>
-              <tr className="grid grid-cols-[10%_15%_20%_25%_10%_10%_10%] font-semibold border-b border-gray-300">
-                <td className="p-4 ">Code</td>
-                <td className="p-4 ">Team Name</td>
-                <td className="p-4 ">Institute</td>
-                <td className="p-4 ">Speakers</td>
-                <td className="p-4 text-left">Wins</td>
-                <td className="p-4 text-left">Loses</td>
-                <td className="p-4 text-left">Points</td>
+              <tr className="grid grid-cols-[10%_15%_25%_20%_10%_10%_10%]">
+                <td className="p-4 font-bold text-xl">Code</td>
+                <td className="p-4 font-bold text-xl">Team Name</td>
+                <td className="p-4 font-bold text-xl">Institute</td>
+                <td className="p-4 font-bold text-xl">Speakers</td>
+                <td className="p-4 font-bold text-xl text-center">Wins</td>
+                <td className="p-4 font-bold text-xl text-center">Loses</td>
+                <td className="p-4 font-bold text-xl text-center">Points</td>
               </tr>
             </thead>
-          </table>
-        </div>
 
-        {/* table body */}
-        <div>
-          <table className="rounded-xl overflow-hidden">
             <tbody>
               {teams.map((team, index) => (
                 <tr
                   key={index}
-                  className="grid grid-cols-[10%_15%_20%_25%_10%_10%_10%] font-semibold border-b border-gray-300"
+                  className="grid grid-cols-[10%_15%_25%_20%_10%_10%_10%]"
                 >
-                  <td>{team.code}</td>
-                  <td>{team.name}</td>
-                  <td>{team.institution}</td>
-                  <td>{team.speakers}</td>
-                  <td>{team.wins}</td>
-                  <td>{team.loses}</td>
-                  <td>{team.points}</td>
+                  <td className="p-4">{team.code}</td>
+                  <td className="p-4">{team.name}</td>
+                  <td className="p-4">{team.institution}</td>
+                  <td className="p-4">
+                    {team.speakers.map((speaker, speakerIndex) => (
+                      <span key={speakerIndex} className="block">
+                        {speaker + ","}
+                      </span>
+                    ))}
+                  </td>
+                  <td className="p-4 text-center">{team.wins}</td>
+                  <td className="p-4 text-center">{team.loses}</td>
+                  <td className="p-4 text-center">{team.points}</td>
                 </tr>
               ))}
             </tbody>
