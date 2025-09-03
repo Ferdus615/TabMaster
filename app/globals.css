@@ -210,7 +210,7 @@ body {
   }
 
   thead {
-    @apply font-heading;
+    @apply bg-gray-900 font-heading;
   }
 
   tbody {
