@@ -206,19 +206,19 @@ body {
   }
 
   table {
-    @apply text-left w-full;
+    @apply text-left w-full overflow-hidden rounded-xl;
   }
 
   thead {
-    @apply font-heading;
+    @apply bg-gray-800 font-heading font-bold text-2xl;
   }
 
   tbody {
-    @apply hover:cursor-pointer;
+    @apply bg-slate-700  hover:cursor-pointer;
   }
 
   tr {
-    @apply bg-slate-700;
+    @apply border-b-2 border-gray-900;
   }
 
   td {
