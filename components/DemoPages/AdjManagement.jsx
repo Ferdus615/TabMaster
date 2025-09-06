@@ -64,6 +64,23 @@ const AdjManagement = () => {
           </span>
         </div>
       </div>
+
+      {/* Table */}
+      <div className="">
+        <table>
+          <thead>
+            <tr>
+              <td>ID</td>
+              <td>Name</td>
+              <td>Exp. Level</td>
+              <td>Assigned Rounds</td>
+              <td>Round Done</td>
+              <td>Rating</td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
   );
 };
