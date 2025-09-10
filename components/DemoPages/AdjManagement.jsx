@@ -366,11 +366,19 @@ const AdjManagement = () => {
               <td>Rating</td>
             </tr>
           </thead>
+
           <tbody>
             {adjudicators.map((adj, index) => {
-              <tr key={index}>
-                <td>ad</td>
-              </tr>
+              return (
+                <tr key={index}>
+                  <td>{adj.id}</td>
+                  <td>{adj.name}</td>
+                  <td>{adj.experienceLevel}</td>
+                  <td>{adj.assignedRounds}</td>
+                  <td>{adj.totalRounds}</td>
+                  <td>{adj.rating}</td>
+                </tr>
+              );
             })}
           </tbody>
         </table>
