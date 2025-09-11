@@ -2,6 +2,297 @@ import React from "react";
 import Image from "next/image";
 
 const AdjManagement = () => {
+  const adjudicators = [
+    {
+      id: 1,
+      name: "Dr. Ahmed Rahman",
+      experienceLevel: "Chief Adjudicator",
+      assignedRounds: 8,
+      totalRounds: 12,
+      rating: 4.9,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 2,
+      name: "Prof. Farida Khan",
+      experienceLevel: "Senior Panel",
+      assignedRounds: 6,
+      totalRounds: 10,
+      rating: 4.8,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 3,
+      name: "Zahid Islam",
+      experienceLevel: "Panel",
+      assignedRounds: 5,
+      totalRounds: 8,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 4,
+      name: "Nusrat Jahan",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 7,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 5,
+      name: "Dr. Sajjad Hossain",
+      experienceLevel: "Senior Panel",
+      assignedRounds: 7,
+      totalRounds: 9,
+      rating: 4.8,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 6,
+      name: "Laila Chowdhury",
+      experienceLevel: "Panel",
+      assignedRounds: 3,
+      totalRounds: 6,
+      rating: 4.5,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 7,
+      name: "Mizanur Rahman",
+      experienceLevel: "Trainee",
+      assignedRounds: 2,
+      totalRounds: 4,
+      rating: 4.3,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 8,
+      name: "Priya Das",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 6,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 9,
+      name: "Tareq Aziz",
+      experienceLevel: "Panel",
+      assignedRounds: 5,
+      totalRounds: 8,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 10,
+      name: "Sonia Akter",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 7,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 11,
+      name: "Kamrul Hasan",
+      experienceLevel: "Senior Panel",
+      assignedRounds: 6,
+      totalRounds: 10,
+      rating: 4.8,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 12,
+      name: "Nargis Sultana",
+      experienceLevel: "Panel",
+      assignedRounds: 3,
+      totalRounds: 6,
+      rating: 4.5,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 13,
+      name: "Mahmudul Islam",
+      experienceLevel: "Trainee",
+      assignedRounds: 2,
+      totalRounds: 4,
+      rating: 4.4,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 14,
+      name: "Sadia Rahman",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 7,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 15,
+      name: "Rashed Bhuiyan",
+      experienceLevel: "Panel",
+      assignedRounds: 5,
+      totalRounds: 8,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 16,
+      name: "Tasnuva Alam",
+      experienceLevel: "Senior Panel",
+      assignedRounds: 7,
+      totalRounds: 11,
+      rating: 4.9,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 17,
+      name: "Fahim Shahriar",
+      experienceLevel: "Trainee",
+      assignedRounds: 1,
+      totalRounds: 3,
+      rating: 4.2,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 18,
+      name: "Ayesha Siddiqa",
+      experienceLevel: "Panel",
+      assignedRounds: 6,
+      totalRounds: 9,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 19,
+      name: "Imran Khan",
+      experienceLevel: "Panel",
+      assignedRounds: 5,
+      totalRounds: 8,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 20,
+      name: "Nazia Haque",
+      experienceLevel: "Senior Panel",
+      assignedRounds: 8,
+      totalRounds: 12,
+      rating: 4.9,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 21,
+      name: "Shahid Karim",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 7,
+      rating: 4.5,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 22,
+      name: "Sabina Yasmin",
+      experienceLevel: "Trainee",
+      assignedRounds: 3,
+      totalRounds: 5,
+      rating: 4.3,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 23,
+      name: "Raihan Chowdhury",
+      experienceLevel: "Panel",
+      assignedRounds: 5,
+      totalRounds: 8,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 24,
+      name: "Taslim Ahmed",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 6,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 25,
+      name: "Dr. Farhan Mazumder",
+      experienceLevel: "Chief Adjudicator",
+      assignedRounds: 9,
+      totalRounds: 12,
+      rating: 5.0,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 26,
+      name: "Sumaiya Binte Rahman",
+      experienceLevel: "Panel",
+      assignedRounds: 3,
+      totalRounds: 5,
+      rating: 4.5,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 27,
+      name: "Asif Iqbal",
+      experienceLevel: "Trainee",
+      assignedRounds: 2,
+      totalRounds: 4,
+      rating: 4.4,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 28,
+      name: "Tamanna Haque",
+      experienceLevel: "Panel",
+      assignedRounds: 5,
+      totalRounds: 8,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 29,
+      name: "Rasheda Begum",
+      experienceLevel: "Senior Panel",
+      assignedRounds: 7,
+      totalRounds: 10,
+      rating: 4.8,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 30,
+      name: "Zahidul Karim",
+      experienceLevel: "Panel",
+      assignedRounds: 4,
+      totalRounds: 7,
+      rating: 4.6,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 31,
+      name: "Tanzim Hassan",
+      experienceLevel: "Trainee",
+      assignedRounds: 1,
+      totalRounds: 3,
+      rating: 4.2,
+      specialization: "Asian Parliamentary",
+    },
+    {
+      id: 32,
+      name: "Nisha Akter",
+      experienceLevel: "Panel",
+      assignedRounds: 6,
+      totalRounds: 9,
+      rating: 4.7,
+      specialization: "Asian Parliamentary",
+    },
+  ];
+
   return (
     <div className="flex flex-col gap-4">
       {/* Header tab */}
@@ -50,10 +341,7 @@ const AdjManagement = () => {
       {/* btn and search */}
       <div className="flex justify-between p-3 rounded-lg">
         <div className="">
-          <span
-            className="bg-yellow-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2 hover:cursor-pointer 
-                        hover:bg-sky"
-          >
+          <span className="bg-yellow-500 rounded-md px-3 py-1 text-colorText flex flex-wrap gap-2 hover:cursor-pointer hover:bg-sky">
             <Image
               src="/feature_2-pic/add.svg"
               height={18}
@@ -78,7 +366,21 @@ const AdjManagement = () => {
               <td>Rating</td>
             </tr>
           </thead>
-          <tbody></tbody>
+
+          <tbody>
+            {adjudicators.map((adj, index) => {
+              return (
+                <tr key={index}>
+                  <td>{adj.id}</td>
+                  <td>{adj.name}</td>
+                  <td>{adj.experienceLevel}</td>
+                  <td>{adj.assignedRounds}</td>
+                  <td>{adj.totalRounds}</td>
+                  <td>{adj.rating}</td>
+                </tr>
+              );
+            })}
+          </tbody>
         </table>
       </div>
     </div>
