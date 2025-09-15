@@ -4,6 +4,7 @@ import Footer from "@/components/DemoComponents/DemoFooter";
 import Dashboard from "../DemoPages/Dashboard";
 import TeamManagement from "../DemoPages/TeamManagement";
 import AdjManagement from "../DemoPages/AdjManagement";
+import Leaderboard from "../DemoPages/Leaderboard";
 
 const page = () => {
   return (
@@ -12,7 +13,7 @@ const page = () => {
 
       <div className="flex flex-col flex-grow">
         <main className="flex-grow pl-4">
-          <AdjManagement />
+          <Leaderboard />
         </main>
         <Footer />
       </div>
